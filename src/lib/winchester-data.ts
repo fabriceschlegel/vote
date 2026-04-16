@@ -740,7 +740,14 @@ const baseCandidateProfiles: CandidateProfile[] = [
   },
 ];
 
-export const voteLedger: VoteLedgerEntry[] = [...baseVoteLedger, ...expandedVoteLedger];
+function toTimelineValue(label: string) {
+  const parsed = new Date(`${label} UTC`);
+  return Number.isNaN(parsed.getTime()) ? 0 : parsed.getTime();
+}
+
+export const voteLedger: VoteLedgerEntry[] = [...baseVoteLedger, ...expandedVoteLedger].sort(
+  (left, right) => toTimelineValue(right.when) - toTimelineValue(left.when),
+);
 
 export const candidateProfiles: CandidateProfile[] = [
   ...baseCandidateProfiles,

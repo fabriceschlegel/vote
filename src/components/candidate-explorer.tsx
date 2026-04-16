@@ -6,7 +6,6 @@ import { useState } from "react";
 import { StanceChip } from "@/components/stance-chip";
 import type {
   CandidateProfile,
-  OfficeId,
   Topic,
   TopicId,
 } from "@/lib/winchester-data";
@@ -16,57 +15,85 @@ type CandidateExplorerProps = {
   topics: Topic[];
 };
 
-function officeLabel(officeId: OfficeId | "all") {
-  if (officeId === "school-committee") {
-    return "School Committee";
-  }
-
-  if (officeId === "select-board") {
-    return "Select Board";
-  }
-
-  return "All offices";
-}
-
 export function CandidateExplorer({
   candidates,
   topics,
 }: CandidateExplorerProps) {
   const [search, setSearch] = useState("");
-  const [officeFilter, setOfficeFilter] = useState<OfficeId | "all">("all");
+  const [officeFilter, setOfficeFilter] = useState<string>("all");
+  const [yearFilter, setYearFilter] = useState<number | "all">("all");
   const [topicFilter, setTopicFilter] = useState<string>("all");
+
+  const officeOptions = [
+    {
+      id: "all",
+      label: "All offices",
+    },
+    ...Array.from(
+      new Map(
+        candidates.map((candidate) => [
+          candidate.officeId,
+          {
+            id: candidate.officeId,
+            label: candidate.officeLabel,
+          },
+        ]),
+      ).values(),
+    ),
+  ];
+
+  const yearOptions = Array.from(
+    new Set(candidates.map((candidate) => candidate.electionYear)),
+  ).sort((left, right) => right - left);
 
   const normalizedTopic =
     topicFilter === "all" ? null : (topicFilter as TopicId);
 
-  const filteredCandidates = candidates.filter((candidate) => {
-    const matchesOffice =
-      officeFilter === "all" || candidate.officeId === officeFilter;
+  const filteredCandidates = [...candidates]
+    .filter((candidate) => {
+      const matchesOffice =
+        officeFilter === "all" || candidate.officeId === officeFilter;
 
-    const matchesTopic =
-      normalizedTopic === null ||
-      candidate.stanceCards.some((stance) => stance.topicId === normalizedTopic) ||
-      candidate.evidence.some((evidence) =>
-        evidence.topicIds.includes(normalizedTopic),
-      );
+      const matchesYear =
+        yearFilter === "all" || candidate.electionYear === yearFilter;
 
-    const haystack = [
-      candidate.name,
-      candidate.officeLabel,
-      candidate.summary,
-      candidate.background,
-      ...candidate.keyThemes,
-      ...candidate.stanceCards.map((stance) => `${stance.label} ${stance.detail}`),
-    ]
-      .join(" ")
-      .toLowerCase();
+      const matchesTopic =
+        normalizedTopic === null ||
+        candidate.stanceCards.some((stance) => stance.topicId === normalizedTopic) ||
+        candidate.evidence.some((evidence) =>
+          evidence.topicIds.includes(normalizedTopic),
+        );
 
-    const matchesSearch =
-      search.trim().length === 0 ||
-      haystack.includes(search.trim().toLowerCase());
+      const haystack = [
+        candidate.name,
+        candidate.officeLabel,
+        candidate.raceLabel,
+        String(candidate.electionYear),
+        candidate.summary,
+        candidate.background,
+        ...candidate.keyThemes,
+        ...candidate.stanceCards.map((stance) => `${stance.label} ${stance.detail}`),
+      ]
+        .join(" ")
+        .toLowerCase();
 
-    return matchesOffice && matchesTopic && matchesSearch;
-  });
+      const matchesSearch =
+        search.trim().length === 0 ||
+        haystack.includes(search.trim().toLowerCase());
+
+      return matchesOffice && matchesYear && matchesTopic && matchesSearch;
+    })
+    .sort((left, right) => {
+      if (left.isActiveBallot !== right.isActiveBallot) {
+        return left.isActiveBallot ? -1 : 1;
+      }
+
+      if (left.electionYear !== right.electionYear) {
+        return right.electionYear - left.electionYear;
+      }
+
+      return left.name.localeCompare(right.name);
+    });
 
   return (
     <section id="candidate-explorer" className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
@@ -100,21 +127,54 @@ export function CandidateExplorer({
 
             <div>
               <p className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-black/45">
-                Office
+                Cycle
               </p>
               <div className="mt-3 flex flex-wrap gap-2">
-                {(["all", "school-committee", "select-board"] as const).map((office) => (
+                <button
+                  type="button"
+                  onClick={() => setYearFilter("all")}
+                  className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
+                    yearFilter === "all"
+                      ? "bg-[#211711] text-white"
+                      : "border border-black/10 bg-[#f4ece1] text-black/70 hover:border-black/20 hover:bg-white"
+                  }`}
+                >
+                  All loaded
+                </button>
+                {yearOptions.map((year) => (
                   <button
-                    key={office}
+                    key={year}
                     type="button"
-                    onClick={() => setOfficeFilter(office)}
+                    onClick={() => setYearFilter(year)}
                     className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
-                      officeFilter === office
+                      yearFilter === year
                         ? "bg-[#9d163b] text-white"
                         : "border border-black/10 bg-[#f4ece1] text-black/70 hover:border-black/20 hover:bg-white"
                     }`}
                   >
-                    {officeLabel(office)}
+                    {year}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <p className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-black/45">
+                Office
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {officeOptions.map((office) => (
+                  <button
+                    key={office.id}
+                    type="button"
+                    onClick={() => setOfficeFilter(office.id)}
+                    className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
+                      officeFilter === office.id
+                        ? "bg-[#9d163b] text-white"
+                        : "border border-black/10 bg-[#f4ece1] text-black/70 hover:border-black/20 hover:bg-white"
+                    }`}
+                  >
+                    {office.label}
                   </button>
                 ))}
               </div>
@@ -167,8 +227,9 @@ export function CandidateExplorer({
               </p>
             </div>
             <p className="max-w-sm text-right text-sm leading-6 text-black/55">
-              Filters keep the search lightweight so the civic questions stay
-              readable.
+              Current-ballot and recent-cycle profiles are loaded together so
+              you can compare today&apos;s field against the people who shaped the
+              last round.
             </p>
           </div>
 
@@ -183,6 +244,9 @@ export function CandidateExplorer({
                     <div>
                       <p className="text-[0.66rem] font-semibold uppercase tracking-[0.24em] text-black/45">
                         {candidate.officeLabel}
+                      </p>
+                      <p className="mt-2 text-sm text-black/48">
+                        {candidate.raceLabel}
                       </p>
                       <h3 className="font-display mt-2 text-2xl font-semibold tracking-[-0.04em] text-[#1f1510]">
                         {candidate.name}

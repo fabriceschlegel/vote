@@ -406,8 +406,9 @@ export function buildBallotMatcherResults(
   candidates: CandidateProfile[],
   selection: PrioritySelection,
 ) {
+  const activeCandidates = candidates.filter((candidate) => candidate.isActiveBallot);
   const offices = Array.from(
-    candidates.reduce((accumulator, candidate) => {
+    activeCandidates.reduce((accumulator, candidate) => {
       const existing = accumulator.get(candidate.officeId) ?? [];
       existing.push(candidate);
       accumulator.set(candidate.officeId, existing);

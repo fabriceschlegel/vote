@@ -39,7 +39,6 @@ const workspaceTabs = [
   {
     id: "overview",
     hash: "#workspace-overview",
-    eyebrow: "News",
     label: "News",
     description:
       "Current town pressure, budget context, and the latest source-backed signals.",
@@ -47,35 +46,30 @@ const workspaceTabs = [
   {
     id: "ballot",
     hash: "#workspace-ballot",
-    eyebrow: "Matcher",
     label: "Quick ballot",
     description: "Match the ballot to your priorities before you read everything else.",
   },
   {
     id: "compare",
     hash: "#workspace-compare",
-    eyebrow: "Profiles",
     label: "Compare candidates",
     description: "Filter the field by office, issue, or keyword and open source-backed profiles.",
   },
   {
     id: "ledger",
     hash: "#workspace-ledger",
-    eyebrow: "Votes",
     label: "Vote ledger",
     description: "See the public actions and budget splits that shaped this cycle.",
   },
   {
     id: "archive",
     hash: "#workspace-archive",
-    eyebrow: "Records",
     label: "Town archive",
     description: "Jump into the larger Winchester meeting record set and current coverage scope.",
   },
 ] as const satisfies {
   id: WorkspaceTabId;
   hash: string;
-  eyebrow: string;
   label: string;
   description: string;
 }[];
@@ -163,11 +157,12 @@ export function HomeWorkspace({
 
         <div
           aria-label="Homepage views"
-          className="grid gap-px bg-[#6f0f27] md:grid-cols-5"
+          className="grid grid-cols-2 gap-px bg-[#6f0f27] xl:grid-cols-5"
           role="tablist"
         >
           {workspaceTabs.map((tab) => {
             const isActive = tab.id === activeTab;
+            const isLastTab = tab.id === workspaceTabs[workspaceTabs.length - 1]?.id;
 
             return (
               <button
@@ -180,27 +175,22 @@ export function HomeWorkspace({
                 onClick={() => activateTab(tab.id)}
                 className={
                   isActive
-                    ? "border-t-4 border-[#e2b653] bg-white px-5 py-4 text-left text-[#201712]"
-                    : "border-t-4 border-transparent bg-[#8f102a] px-5 py-4 text-left text-white transition hover:bg-[#7d142c]"
+                    ? `border-t-4 border-[#e2b653] bg-white px-4 py-3 text-left text-[#201712] sm:px-5 sm:py-4 ${
+                        isLastTab ? "col-span-2 xl:col-span-1" : ""
+                      }`
+                    : `border-t-4 border-transparent bg-[#8f102a] px-4 py-3 text-left text-white transition hover:bg-[#7d142c] sm:px-5 sm:py-4 ${
+                        isLastTab ? "col-span-2 xl:col-span-1" : ""
+                      }`
                 }
               >
-                <p
-                  className={
-                    isActive
-                      ? "text-[0.63rem] font-semibold uppercase tracking-[0.24em] text-[#8f102a]"
-                      : "text-[0.63rem] font-semibold uppercase tracking-[0.24em] text-white/68"
-                  }
-                >
-                  {tab.eyebrow}
-                </p>
-                <p className="font-display mt-2 text-[1.22rem] font-semibold tracking-[-0.04em]">
+                <p className="font-display text-[1.05rem] font-semibold tracking-[-0.04em] sm:text-[1.22rem]">
                   {tab.label}
                 </p>
                 <p
                   className={
                     isActive
-                      ? "mt-2 max-w-xs text-sm leading-6 text-black/60"
-                      : "mt-2 max-w-xs text-sm leading-6 text-white/72"
+                      ? "mt-2 hidden max-w-xs text-sm leading-6 text-black/60 lg:block"
+                      : "mt-2 hidden max-w-xs text-sm leading-6 text-white/72 lg:block"
                   }
                 >
                   {tab.description}
@@ -219,10 +209,7 @@ export function HomeWorkspace({
           {activeTab !== "overview" ? (
             <div className="flex flex-col gap-3 border-b border-black/10 px-6 py-5 lg:flex-row lg:items-end lg:justify-between lg:px-8">
               <div>
-                <p className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-[#9d163b]">
-                  {activeTabDefinition.eyebrow}
-                </p>
-                <h3 className="font-display mt-2 text-[2rem] font-semibold tracking-[-0.05em] text-[#1f1510]">
+                <h3 className="font-display text-[2rem] font-semibold tracking-[-0.05em] text-[#1f1510]">
                   {activeTabDefinition.label}
                 </h3>
               </div>

@@ -52,7 +52,7 @@ export default async function CandidatePage(
     <main className="mx-auto max-w-6xl px-6 py-8 pb-20 lg:px-10">
       <div className="border-b border-black/10 pb-6">
         <Link
-          href="/"
+          href="/#workspace-compare"
           className="inline-flex rounded-full border border-black/10 bg-white/70 px-4 py-2 text-sm font-semibold text-black/68 transition hover:border-black/20 hover:bg-white"
         >
           Back to comparison

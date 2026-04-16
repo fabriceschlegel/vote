@@ -96,23 +96,23 @@ export function CandidateExplorer({
     });
 
   return (
-    <section id="candidate-explorer" className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
-      <div className="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
-        <div className="space-y-6">
+    <section id="candidate-explorer" className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10 lg:px-10 lg:py-20">
+      <div className="grid gap-6 sm:gap-8 lg:grid-cols-[0.75fr_1.25fr] lg:gap-10">
+        <div className="space-y-5 sm:space-y-6">
           <div className="space-y-3">
             <p className="text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-[#9d163b]">
               Candidate explorer
             </p>
-            <h2 className="font-display max-w-lg text-4xl font-semibold tracking-[-0.05em] text-[#1e1510]">
+            <h2 className="font-display max-w-lg text-[2rem] font-semibold tracking-[-0.05em] text-[#1e1510] sm:text-4xl">
               Compare the field by issue, not by mailer.
             </h2>
-            <p className="max-w-md text-base leading-7 text-black/65">
+            <p className="max-w-md text-sm leading-6 text-black/65 sm:text-base sm:leading-7">
               Filter by office, budget issue, or keyword. Every card below
               points to a source-backed profile page with a record-quality note.
             </p>
           </div>
 
-          <div className="space-y-4 rounded-[1.35rem] border border-black/10 bg-white p-5">
+          <div className="space-y-4 rounded-[1.35rem] border border-black/10 bg-white p-4 sm:p-5">
             <label className="block">
               <span className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-black/45">
                 Search names or issues
@@ -226,7 +226,7 @@ export function CandidateExplorer({
                 {filteredCandidates.length === 1 ? "" : "s"}
               </p>
             </div>
-            <p className="max-w-sm text-right text-sm leading-6 text-black/55">
+            <p className="hidden max-w-sm text-right text-sm leading-6 text-black/55 md:block">
               Current-ballot and recent-cycle profiles are loaded together so
               you can compare today&apos;s field against the people who shaped the
               last round.

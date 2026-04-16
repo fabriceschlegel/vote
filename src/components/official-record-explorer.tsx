@@ -50,10 +50,10 @@ export function OfficialRecordExplorer({
             <p className="text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-[#9d163b]">
               Official record archive
             </p>
-            <h2 className="font-display mt-3 max-w-lg text-4xl font-semibold tracking-[-0.05em] text-[#201712]">
+            <h2 className="font-display mt-3 max-w-lg text-[2rem] font-semibold tracking-[-0.05em] text-[#201712] sm:text-4xl">
               Search the deeper Winchester meeting archive.
             </h2>
-            <p className="mt-3 max-w-md text-base leading-7 text-black/62">
+            <p className="mt-3 max-w-md text-sm leading-6 text-black/62 sm:text-base sm:leading-7">
               This is generated from the town Agenda Center, not hand-entered.
               It gives testers much broader coverage across the Winchester
               bodies that matter most for budget, planning, schools, and town
@@ -61,7 +61,7 @@ export function OfficialRecordExplorer({
             </p>
           </div>
 
-          <div className="rounded-[1.8rem] border border-black/10 bg-white/85 p-5 shadow-[0_18px_50px_rgba(35,23,16,0.07)]">
+          <div className="rounded-[1.5rem] border border-black/10 bg-white/85 p-4 shadow-[0_18px_50px_rgba(35,23,16,0.07)] sm:rounded-[1.8rem] sm:p-5">
             <label className="block">
               <span className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-black/45">
                 Search by meeting title or topic
@@ -142,7 +142,7 @@ export function OfficialRecordExplorer({
                 {filteredRecords.length === 1 ? "" : "s"}
               </p>
             </div>
-            <p className="max-w-sm text-right text-sm leading-6 text-black/55">
+            <p className="hidden max-w-sm text-right text-sm leading-6 text-black/55 md:block">
               Agenda links go straight to Winchester’s official site. The list
               caps at 60 rows at a time, so narrower filters produce better
               browsing.

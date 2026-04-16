@@ -128,7 +128,7 @@ export function HomeWorkspace({
   return (
     <section
       id="home-workspace"
-      className="relative z-20 mx-auto max-w-7xl px-6 pt-8 pb-10 lg:px-10 lg:pt-10 lg:pb-12"
+      className="relative z-20 mx-auto max-w-7xl px-4 pt-4 pb-6 sm:px-6 sm:pt-6 sm:pb-8 lg:px-10 lg:pt-10 lg:pb-12"
     >
       <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0">
         {workspaceTabs.map((tab) => (
@@ -140,16 +140,16 @@ export function HomeWorkspace({
         ))}
       </div>
 
-      <div className="overflow-hidden rounded-[1.6rem] border border-black/10 bg-white">
-        <div className="border-b border-black/10 bg-white px-6 py-7 lg:px-8">
+      <div className="overflow-hidden rounded-[1.35rem] border border-black/10 bg-white sm:rounded-[1.6rem]">
+        <div className="border-b border-black/10 bg-white px-4 py-5 sm:px-6 sm:py-7 lg:px-8">
           <div className="max-w-4xl space-y-3">
             <p className="text-[0.68rem] font-semibold uppercase tracking-[0.26em] text-[#8f102a]">
               Winchester voter guide
             </p>
-            <h1 className="font-display text-[3rem] font-semibold leading-[0.92] tracking-[-0.06em] text-[#201712] sm:text-[3.7rem]">
+            <h1 className="font-display text-[2.2rem] font-semibold leading-[0.92] tracking-[-0.06em] text-[#201712] sm:text-[3rem] lg:text-[3.7rem]">
               See what candidates actually stand for before you vote.
             </h1>
-            <p className="max-w-3xl text-base leading-7 text-black/58 sm:text-lg">
+            <p className="max-w-3xl text-sm leading-6 text-black/58 sm:text-base sm:leading-7 lg:text-lg">
               Public records, prior votes, and town documents in one place.
             </p>
           </div>
@@ -157,12 +157,11 @@ export function HomeWorkspace({
 
         <div
           aria-label="Homepage views"
-          className="grid grid-cols-2 gap-px bg-[#6f0f27] xl:grid-cols-5"
+          className="flex snap-x gap-px overflow-x-auto bg-[#6f0f27] xl:grid xl:grid-cols-5 xl:overflow-visible"
           role="tablist"
         >
           {workspaceTabs.map((tab) => {
             const isActive = tab.id === activeTab;
-            const isLastTab = tab.id === workspaceTabs[workspaceTabs.length - 1]?.id;
 
             return (
               <button
@@ -175,12 +174,8 @@ export function HomeWorkspace({
                 onClick={() => activateTab(tab.id)}
                 className={
                   isActive
-                    ? `border-t-4 border-[#e2b653] bg-white px-4 py-3 text-left text-[#201712] sm:px-5 sm:py-4 ${
-                        isLastTab ? "col-span-2 xl:col-span-1" : ""
-                      }`
-                    : `border-t-4 border-transparent bg-[#8f102a] px-4 py-3 text-left text-white transition hover:bg-[#7d142c] sm:px-5 sm:py-4 ${
-                        isLastTab ? "col-span-2 xl:col-span-1" : ""
-                      }`
+                    ? "min-w-[9.75rem] shrink-0 snap-start border-t-4 border-[#e2b653] bg-white px-4 py-3 text-left text-[#201712] sm:min-w-[11rem] sm:px-5 sm:py-4 xl:min-w-0"
+                    : "min-w-[9.75rem] shrink-0 snap-start border-t-4 border-transparent bg-[#8f102a] px-4 py-3 text-left text-white transition hover:bg-[#7d142c] sm:min-w-[11rem] sm:px-5 sm:py-4 xl:min-w-0"
                 }
               >
                 <p className="font-display text-[1.05rem] font-semibold tracking-[-0.04em] sm:text-[1.22rem]">
@@ -207,9 +202,9 @@ export function HomeWorkspace({
           className="bg-[linear-gradient(180deg,_rgba(255,255,255,1)_0%,_rgba(250,246,240,0.72)_100%)]"
         >
           {activeTab !== "overview" ? (
-            <div className="flex flex-col gap-3 border-b border-black/10 px-6 py-5 lg:flex-row lg:items-end lg:justify-between lg:px-8">
+            <div className="hidden flex-col gap-3 border-b border-black/10 px-4 py-4 sm:flex sm:px-6 sm:py-5 lg:flex-row lg:items-end lg:justify-between lg:px-8">
               <div>
-                <h3 className="font-display text-[2rem] font-semibold tracking-[-0.05em] text-[#1f1510]">
+                <h3 className="font-display text-[1.6rem] font-semibold tracking-[-0.05em] text-[#1f1510] sm:text-[2rem]">
                   {activeTabDefinition.label}
                 </h3>
               </div>
@@ -217,15 +212,12 @@ export function HomeWorkspace({
           ) : null}
 
           {activeTab === "overview" ? (
-            <div className="grid gap-8 px-6 py-8 lg:grid-cols-[0.92fr_1.08fr] lg:px-8">
+            <div className="grid gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:grid-cols-[0.92fr_1.08fr] lg:px-8">
               <div className="space-y-4">
-                <p className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-[#8f102a]">
-                  News
-                </p>
-                <h3 className="font-display text-[2.5rem] font-semibold leading-[0.95] tracking-[-0.05em] text-[#1f1510] sm:text-[3rem]">
+                <h3 className="font-display text-[2rem] font-semibold leading-[0.95] tracking-[-0.05em] text-[#1f1510] sm:text-[2.5rem] lg:text-[3rem]">
                   Current town pressure
                 </h3>
-                <p className="max-w-xl text-base leading-7 text-black/62">
+                <p className="max-w-xl text-sm leading-6 text-black/62 sm:text-base sm:leading-7">
                   School funding, turnout, and the post-override budget picture are the backdrop for this ballot.
                 </p>
 
@@ -233,7 +225,7 @@ export function HomeWorkspace({
                   {townSignals.map((signal) => (
                     <article
                       key={signal.label}
-                      className="grid gap-2 py-5 sm:grid-cols-[0.8fr_0.2fr] sm:items-start"
+                      className="grid gap-2 py-4 sm:grid-cols-[0.8fr_0.2fr] sm:items-start"
                     >
                       <div>
                         <p className="text-[0.66rem] font-semibold uppercase tracking-[0.24em] text-[#8f102a]/76">
@@ -254,23 +246,23 @@ export function HomeWorkspace({
               </div>
 
               <div className="space-y-5">
-                <div className="grid gap-0 border border-[#e3ddd3] bg-[#faf7f2] sm:grid-cols-2 sm:divide-x sm:divide-[#e3ddd3]">
-                  <article className="p-5">
+                <div className="grid grid-cols-2 gap-px border border-[#e3ddd3] bg-[#e3ddd3]">
+                  <article className="bg-[#faf7f2] p-4 sm:p-5">
                     <p className="text-[0.66rem] font-semibold uppercase tracking-[0.24em] text-black/46">
                       Data loaded
                     </p>
-                    <p className="font-display mt-2 text-3xl font-semibold tracking-[-0.05em] text-[#8f102a]">
+                    <p className="font-display mt-2 text-[1.9rem] font-semibold tracking-[-0.05em] text-[#8f102a] sm:text-3xl">
                       {evidenceCount + officialRecordCount}
                     </p>
                     <p className="mt-2 text-sm leading-6 text-black/60">
                       Combined candidate evidence and indexed town records.
                     </p>
                   </article>
-                  <article className="p-5">
+                  <article className="bg-[#faf7f2] p-4 sm:p-5">
                     <p className="text-[0.66rem] font-semibold uppercase tracking-[0.24em] text-black/46">
                       Archive window
                     </p>
-                    <p className="font-display mt-2 text-3xl font-semibold tracking-[-0.05em] text-[#1f1510]">
+                    <p className="font-display mt-2 text-[1.9rem] font-semibold tracking-[-0.05em] text-[#1f1510] sm:text-3xl">
                       {yearCoverageLabel}
                     </p>
                     <p className="mt-2 text-sm leading-6 text-black/60">
@@ -280,12 +272,12 @@ export function HomeWorkspace({
                 </div>
 
                 <div className="border border-[#e3ddd3] bg-white">
-                  <div className="flex items-end justify-between gap-4 border-b border-[#e3ddd3] px-5 py-4">
+                  <div className="flex flex-col items-start gap-3 border-b border-[#e3ddd3] px-4 py-4 sm:flex-row sm:items-end sm:justify-between sm:px-5">
                     <div>
                       <p className="text-[0.66rem] font-semibold uppercase tracking-[0.24em] text-[#8f102a]">
                         Latest town records
                       </p>
-                      <p className="font-display mt-2 text-[1.7rem] font-semibold tracking-[-0.04em] text-[#1f1510]">
+                      <p className="font-display mt-2 text-[1.35rem] font-semibold tracking-[-0.04em] text-[#1f1510] sm:text-[1.7rem]">
                         Recent official archive
                       </p>
                     </div>
@@ -298,10 +290,12 @@ export function HomeWorkspace({
                   </div>
 
                   <div className="divide-y divide-[#e3ddd3]">
-                    {recentOfficialRecords.slice(0, 4).map((record) => (
+                    {recentOfficialRecords.slice(0, 4).map((record, index) => (
                       <article
                         key={record.id}
-                        className="grid gap-3 px-5 py-4 md:grid-cols-[0.64fr_0.36fr] md:items-start"
+                        className={`grid gap-3 px-4 py-4 md:grid-cols-[0.64fr_0.36fr] md:items-start md:px-5 ${
+                          index > 1 ? "hidden md:grid" : ""
+                        }`}
                       >
                         <div>
                           <p className="text-[0.66rem] font-semibold uppercase tracking-[0.24em] text-black/45">
@@ -345,23 +339,25 @@ export function HomeWorkspace({
 
 	          {activeTab === "ballot" ? (
             <div className="space-y-0">
-              <div className="grid gap-4 border-b border-black/8 bg-[#faf7f2] px-6 py-6 md:grid-cols-2 lg:px-8">
+              <div className="border-b border-black/8 bg-[#faf7f2] px-4 py-4 sm:px-6 sm:py-6 lg:px-8">
+                <div className="flex snap-x gap-3 overflow-x-auto pb-1 md:grid md:grid-cols-2 md:overflow-visible md:pb-0">
                 {offices.map((office) => (
                   <article
                     key={office.id}
-                    className="rounded-[1.25rem] border border-black/8 bg-white p-4"
+                    className="min-w-[16rem] shrink-0 rounded-[1.25rem] border border-black/8 bg-white p-4 md:min-w-0"
                   >
                     <p className="text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-black/45">
                       {office.label}
                     </p>
-                    <p className="font-display mt-3 text-xl font-semibold tracking-[-0.04em] text-[#1f1510]">
+                    <p className="font-display mt-2 text-lg font-semibold tracking-[-0.04em] text-[#1f1510] sm:mt-3 sm:text-xl">
                       {office.description}
                     </p>
-                    <p className="mt-2 text-sm leading-6 text-black/60">
+                    <p className="mt-2 hidden text-sm leading-6 text-black/60 sm:block">
                       {office.currentPressure}
                     </p>
                   </article>
                 ))}
+                </div>
               </div>
               <BallotMatcher
                 candidates={candidates}
@@ -375,12 +371,12 @@ export function HomeWorkspace({
           ) : null}
 
           {activeTab === "ledger" ? (
-            <div className="grid gap-10 px-6 py-8 lg:grid-cols-[0.82fr_1.18fr] lg:px-8">
+            <div className="grid gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:grid-cols-[0.82fr_1.18fr] lg:px-8">
               <div className="space-y-4">
                 <p className="text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-[#9d163b]">
                   Public record
                 </p>
-                <h4 className="font-display max-w-lg text-4xl font-semibold tracking-[-0.05em] text-[#1f1510]">
+                <h4 className="font-display max-w-lg text-[2rem] font-semibold tracking-[-0.05em] text-[#1f1510] sm:text-4xl">
                   This is the part parents usually cannot find in one place.
                 </h4>
                 <p className="max-w-md text-base leading-7 text-black/65">
@@ -394,7 +390,7 @@ export function HomeWorkspace({
                   const source = getSourceById(entry.sourceId);
 
                   return (
-                    <article key={entry.id} className="rounded-[1.5rem] border border-black/10 bg-white p-6">
+                    <article key={entry.id} className="rounded-[1.35rem] border border-black/10 bg-white p-4 sm:rounded-[1.5rem] sm:p-6">
                       <div className="flex flex-col gap-4 border-b border-black/8 pb-5 md:flex-row md:items-end md:justify-between">
                         <div>
                           <p className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-black/45">
@@ -462,9 +458,9 @@ export function HomeWorkspace({
           ) : null}
 
               {activeTab === "archive" ? (
-            <div className="space-y-8 px-6 py-8 lg:px-8">
-              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-                <article className="rounded-[1.35rem] border border-black/10 bg-white p-5">
+            <div className="space-y-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+              <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+                <article className="rounded-[1.35rem] border border-black/10 bg-white p-4 sm:p-5">
                   <p className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-black/45">
                     Official records
                   </p>
@@ -476,7 +472,7 @@ export function HomeWorkspace({
                     tester scope.
                   </p>
                 </article>
-                <article className="rounded-[1.35rem] border border-black/10 bg-white p-5">
+                <article className="rounded-[1.35rem] border border-black/10 bg-white p-4 sm:p-5">
                   <p className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-black/45">
                     Bodies covered
                   </p>
@@ -488,7 +484,7 @@ export function HomeWorkspace({
                     place.
                   </p>
                 </article>
-                <article className="rounded-[1.35rem] border border-black/10 bg-white p-5">
+                <article className="rounded-[1.35rem] border border-black/10 bg-white p-4 sm:p-5">
                   <p className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-black/45">
                     Minutes links
                   </p>
@@ -499,7 +495,7 @@ export function HomeWorkspace({
                     Records surface minutes whenever Winchester publishes them.
                   </p>
                 </article>
-                <article className="rounded-[1.35rem] border border-black/10 bg-white p-5">
+                <article className="rounded-[1.35rem] border border-black/10 bg-white p-4 sm:p-5">
                   <p className="text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-black/45">
                     Year coverage
                   </p>

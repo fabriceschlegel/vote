@@ -46,33 +46,33 @@ export default function RootLayout({
     >
       <body className="min-h-full">
         <div className="min-h-full bg-[linear-gradient(180deg,_rgba(255,255,255,0.92)_0%,_rgba(255,255,255,0.35)_18%,_rgba(255,255,255,0)_34%),var(--background)]">
-          <div className="border-b border-[#8f102a] bg-[#7a0019] px-4 py-2 text-center text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-white sm:px-6">
+          <div className="border-b border-[#8f102a] bg-[#7a0019] px-4 py-1.5 text-center text-[0.6rem] font-semibold uppercase tracking-[0.2em] text-white sm:px-6 sm:py-2 sm:text-[0.68rem] sm:tracking-[0.24em]">
             Independent community project. Not developed by the Town of
             Winchester or Winchester Public Schools.
           </div>
           <header className="border-b border-[#d9d1c6] bg-white text-[#201712]">
-            <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4 lg:px-10">
+            <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4 lg:px-10">
               <div>
                 <Link href="/" className="inline-flex items-center gap-3">
-                  <span className="font-display text-[2.1rem] tracking-[-0.05em]">
+                  <span className="font-display text-[1.7rem] tracking-[-0.05em] sm:text-[2.1rem]">
                     {siteTitle}
                   </span>
-                  <span className="rounded-full border border-[#d8c49b] bg-[#fbf1d6] px-3 py-1 text-[0.66rem] font-semibold uppercase tracking-[0.22em] text-[#8f102a]">
+                  <span className="hidden rounded-full border border-[#d8c49b] bg-[#fbf1d6] px-3 py-1 text-[0.66rem] font-semibold uppercase tracking-[0.22em] text-[#8f102a] sm:inline-flex">
                     Winchester voter guide
                   </span>
                 </Link>
               </div>
 
-              <nav className="flex flex-wrap items-center gap-3 text-sm font-semibold text-black/68">
+              <nav className="flex flex-wrap items-center gap-2 text-xs font-semibold text-black/68 sm:gap-3 sm:text-sm">
                 <Link
                   href="/"
-                  className="inline-flex items-center rounded-full border border-[#d8d1c7] bg-white px-4 py-2 transition hover:border-[#8f102a]/35 hover:text-[#8f102a]"
+                  className="inline-flex items-center rounded-full border border-[#d8d1c7] bg-white px-3 py-1.5 transition hover:border-[#8f102a]/35 hover:text-[#8f102a] sm:px-4 sm:py-2"
                 >
                   Home
                 </Link>
                 <Link
                   href="/sources"
-                  className="inline-flex items-center rounded-full bg-[#8f102a] px-4 py-2 text-white transition hover:bg-[#6f0f27]"
+                  className="inline-flex items-center rounded-full bg-[#8f102a] px-3 py-1.5 text-white transition hover:bg-[#6f0f27] sm:px-4 sm:py-2"
                 >
                   Sources
                 </Link>

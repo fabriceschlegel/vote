@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ballot Light
 
-## Getting Started
+Ballot Light is a Winchester-first civic voting product. It turns scattered town records, committee coverage, and election guides into a source-backed comparison experience for local voters.
 
-First, run the development server:
+The initial MVP focuses on:
+
+- 2026 Winchester School Committee and Select Board candidates
+- school-budget and override context that matters to parents
+- a vote ledger that shows where public actions are direct votes versus adjacent public record
+- a reusable source manifest plus a generated official meeting archive so future committees and election cycles can be added without changing the app shape
+
+## Stack
+
+- Next.js 16 App Router
+- React 19
+- Tailwind CSS 4
+- Static typed data for the first Winchester release
+
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Source sync
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The current release ships with curated typed data. To keep a local archive of the public source pages and PDFs used by the MVP:
 
-## Learn More
+```bash
+npm run build:archive
+npm run fetch:sources
+npm run audit:data
+```
 
-To learn more about Next.js, take a look at the following resources:
+Those commands read [data/source-manifest.json](/Users/fschlege@amgen.com/Developer/vote/data/source-manifest.json), write the downloaded files into `data/raw/`, and then build a derived JSON cache plus quality reports under `data/derived/`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`npm run build:archive` generates [data/official-record-archive.json](/Users/fschlege@amgen.com/Developer/vote/data/official-record-archive.json) from Winchester's Agenda Center across the current high-signal committee set, including School Committee, Select Board, Finance Committee, Planning Board, Town Meeting, and other related public bodies across a rolling 10-year window.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`npm run audit:data` creates:
 
-## Deploy on Vercel
+- [data/derived/source-quality-report.json](/Users/fschlege@amgen.com/Developer/vote/data/derived/source-quality-report.json) to score the raw source files you have already fetched
+- [data/derived/official-record-quality-report.json](/Users/fschlege@amgen.com/Developer/vote/data/derived/official-record-quality-report.json) to show which archive entries are still agenda-only versus which have minutes available
+- `data/derived/sources/*.json` as the extracted JSON cache for raw PDF and HTML source text
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Product shape
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `/` compares candidates and shows the school-focused vote ledger
+- `/candidates/[slug]` gives each candidate a stance summary, evidence trail, and source list
+- `/sources` exposes the curated source library plus the larger official-record archive and its ingest workflow
+
+## Current data choices
+
+- Official town records anchor election results and process pages.
+- Winchester News coverage fills in candidate questionnaires, forum summaries, and meeting-level vote details that are difficult to recover from the town site alone.
+- Candidate pages explicitly label whether a stance is based on a direct vote, adjacent public action, or campaign statements.
+
+## Next extensions
+
+- add more Winchester bodies beyond the current high-signal committee set
+- ingest more committee minutes into structured vote entries
+- add issue pages for specific warrant articles or override proposals

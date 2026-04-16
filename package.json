@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "audit:data": "python3 scripts/build-data-harness.py",
+    "build:archive": "node scripts/generate-official-record-archive.mjs",
+    "fetch:sources": "node scripts/fetch-winchester-sources.mjs"
   },
   "dependencies": {
     "next": "16.2.3",

@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local source archive and derived audit output
+/data/raw/
+/data/derived/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

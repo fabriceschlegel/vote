@@ -128,7 +128,7 @@ export function HomeWorkspace({
   return (
     <section
       id="home-workspace"
-      className="relative z-20 mx-auto max-w-7xl px-4 pt-4 pb-6 sm:px-6 sm:pt-6 sm:pb-8 lg:px-10 lg:pt-10 lg:pb-12"
+      className="relative z-20 mx-auto max-w-7xl px-4 pt-2 pb-6 sm:px-6 sm:pt-4 sm:pb-8 lg:px-10 lg:pt-6 lg:pb-12"
     >
       <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0">
         {workspaceTabs.map((tab) => (

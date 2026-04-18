@@ -46,40 +46,28 @@ export default function RootLayout({
     >
       <body className="min-h-full">
         <div className="min-h-full bg-[linear-gradient(180deg,_rgba(255,255,255,0.92)_0%,_rgba(255,255,255,0.35)_18%,_rgba(255,255,255,0)_34%),var(--background)]">
-          <div className="border-b border-[#8f102a] bg-[#7a0019] px-4 py-1.5 text-center text-[0.6rem] font-semibold uppercase tracking-[0.2em] text-white sm:px-6 sm:py-2 sm:text-[0.68rem] sm:tracking-[0.24em]">
-            Independent community project. Not developed by the Town of
-            Winchester or Winchester Public Schools.
-          </div>
-          <header className="border-b border-[#d9d1c6] bg-white text-[#201712]">
-            <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4 lg:px-10">
-              <div>
-                <Link href="/" className="inline-flex items-center gap-3">
-                  <span className="font-display text-[1.7rem] tracking-[-0.05em] sm:text-[2.1rem]">
-                    {siteTitle}
-                  </span>
-                  <span className="hidden rounded-full border border-[#d8c49b] bg-[#fbf1d6] px-3 py-1 text-[0.66rem] font-semibold uppercase tracking-[0.22em] text-[#8f102a] sm:inline-flex">
-                    Winchester voter guide
-                  </span>
-                </Link>
-              </div>
-
-              <nav className="flex flex-wrap items-center gap-2 text-xs font-semibold text-black/68 sm:gap-3 sm:text-sm">
+          <div className="border-b border-[#8f102a] bg-[#7a0019] text-white">
+            <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-2 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-10">
+              <p className="text-center text-[0.6rem] font-semibold uppercase tracking-[0.2em] lg:text-left sm:text-[0.68rem] sm:tracking-[0.24em]">
+                Independent community project. Not developed by the Town of
+                Winchester or Winchester Public Schools.
+              </p>
+              <div className="flex items-center justify-center gap-2 text-xs font-semibold sm:text-sm">
                 <Link
                   href="/"
-                  className="inline-flex items-center rounded-full border border-[#d8d1c7] bg-white px-3 py-1.5 transition hover:border-[#8f102a]/35 hover:text-[#8f102a] sm:px-4 sm:py-2"
+                  className="inline-flex items-center rounded-full border border-white/18 px-3 py-1.5 transition hover:border-white/38 hover:bg-white/8"
                 >
                   Home
                 </Link>
                 <Link
                   href="/sources"
-                  className="inline-flex items-center rounded-full bg-[#8f102a] px-3 py-1.5 text-white transition hover:bg-[#6f0f27] sm:px-4 sm:py-2"
+                  className="inline-flex items-center rounded-full bg-white px-3 py-1.5 text-[#7a0019] transition hover:bg-[#fbf1d6]"
                 >
                   Sources
                 </Link>
-              </nav>
+              </div>
             </div>
-            <div className="h-1 bg-[linear-gradient(90deg,_#8f102a_0%,_#c8475d_55%,_#e2b653_100%)]" />
-          </header>
+          </div>
 
           {children}
 

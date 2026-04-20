@@ -9,7 +9,9 @@
     "lint": "eslint",
     "audit:data": "python3 scripts/build-data-harness.py",
     "build:archive": "node scripts/generate-official-record-archive.mjs",
-    "fetch:sources": "node scripts/fetch-winchester-sources.mjs"
+    "fetch:sources": "node scripts/fetch-winchester-sources.mjs",
+    "refresh:data": "node scripts/run-weekly-refresh.mjs",
+    "generate:candidate-data": "node scripts/generate-candidate-data.mjs"
   },
   "dependencies": {
     "next": "16.2.3",

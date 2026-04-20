@@ -1,5 +1,6 @@
 import { expandedCandidateProfiles, expandedVoteLedger } from "@/lib/winchester-data-expansion";
 import sourceManifest from "../../data/source-manifest.json";
+import generatedCandidateProfilesJson from "../../data/generated/candidate-profiles.json";
 
 export type SourceKind = "official" | "local-news";
 export type OfficeId = "school-committee" | "select-board" | "planning-board";
@@ -59,7 +60,7 @@ export type CandidateProfile = {
   officeId: OfficeId;
   officeLabel: string;
   raceLabel: string;
-  status: "elected" | "lost" | "reelected";
+  status: "running" | "elected" | "lost" | "reelected";
   background: string;
   summary: string;
   locationNote: string;
@@ -750,8 +751,9 @@ export const voteLedger: VoteLedgerEntry[] = [...baseVoteLedger, ...expandedVote
 );
 
 export const candidateProfiles: CandidateProfile[] = [
-  ...baseCandidateProfiles,
-  ...expandedCandidateProfiles,
+  ...((generatedCandidateProfilesJson as CandidateProfile[]).length > 0
+    ? (generatedCandidateProfilesJson as CandidateProfile[])
+    : [...baseCandidateProfiles, ...expandedCandidateProfiles]),
 ];
 
 export function getCandidateBySlug(slug: string) {

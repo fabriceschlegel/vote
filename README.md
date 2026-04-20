@@ -25,6 +25,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## Production deployment
+
+The Vercel project for this repo is `vote`.
+
+- Short production alias: [https://vote-weld-two.vercel.app](https://vote-weld-two.vercel.app)
+- Current full production deployment URL: [https://vote-h2j2408cc-schlegelfabrice-4496s-projects.vercel.app](https://vote-h2j2408cc-schlegelfabrice-4496s-projects.vercel.app)
+- Main-branch alias: [https://vote-git-main-schlegelfabrice-4496s-projects.vercel.app](https://vote-git-main-schlegelfabrice-4496s-projects.vercel.app)
+
 ## Source sync
 
 The current release ships with curated typed data. To keep a local archive of the public source pages and PDFs used by the MVP:
@@ -33,6 +41,18 @@ The current release ships with curated typed data. To keep a local archive of th
 npm run build:archive
 npm run fetch:sources
 npm run audit:data
+```
+
+Or run the same sequence through the phase-1 automation entrypoint:
+
+```bash
+npm run refresh:data
+```
+
+To rebuild the candidate pages from the refreshed source set:
+
+```bash
+OPENAI_API_KEY=... npm run generate:candidate-data
 ```
 
 Those commands read [data/source-manifest.json](/Users/fschlege@amgen.com/Developer/vote/data/source-manifest.json), write the downloaded files into `data/raw/`, and then build a derived JSON cache plus quality reports under `data/derived/`.
@@ -44,6 +64,30 @@ Those commands read [data/source-manifest.json](/Users/fschlege@amgen.com/Develo
 - [data/derived/source-quality-report.json](/Users/fschlege@amgen.com/Developer/vote/data/derived/source-quality-report.json) to score the raw source files you have already fetched
 - [data/derived/official-record-quality-report.json](/Users/fschlege@amgen.com/Developer/vote/data/derived/official-record-quality-report.json) to show which archive entries are still agenda-only versus which have minutes available
 - `data/derived/sources/*.json` as the extracted JSON cache for raw PDF and HTML source text
+
+## Weekly automation
+
+Transport note: this branch stores the workflow file at [docs/weekly-data-refresh.yml](/tmp/vote-phase1-sync/docs/weekly-data-refresh.yml) instead of `.github/workflows/weekly-data-refresh.yml` because the current GitHub token cannot push workflow-path changes. Move it back under `.github/workflows/` on the next machine before enabling the automation.
+
+Phase 1 uses a scheduled GitHub Actions workflow at [.github/workflows/weekly-data-refresh.yml](/Users/fschlege@amgen.com/Developer/vote/.github/workflows/weekly-data-refresh.yml). After this branch is merged, GitHub will run it every Monday at `11:00 UTC`, or you can trigger it manually with `workflow_dispatch`.
+
+The workflow:
+
+- installs Node and Python dependencies
+- runs `npm run refresh:data`
+- runs `npm run generate:candidate-data` using the OpenAI Responses API
+- uploads the latest archive and audit reports as workflow artifacts
+- commits any tracked file changes back to the repository so Vercel can redeploy the updated snapshot
+
+Repository setup required for the candidate sync:
+
+- add a GitHub Actions secret named `OPENAI_API_KEY`
+- optionally add a repository variable named `OPENAI_MODEL` if you do not want the default `gpt-5.4`
+- optionally add `BALLOT_LIGHT_CANDIDATE_HISTORY_CYCLES` to control how many election cycles stay on the site
+
+The app now reads generated candidate page data from [data/generated/candidate-profiles.json](/Users/fschlege@amgen.com/Developer/vote/data/generated/candidate-profiles.json) when that file is populated, and falls back to the manually authored TypeScript profiles otherwise.
+
+Current limitation: source discovery is still curated by [data/source-manifest.json](/Users/fschlege@amgen.com/Developer/vote/data/source-manifest.json). The workflow can regenerate candidate pages from the sources already in the manifest, but it does not yet crawl Winchester sites for brand-new URLs and add them to the manifest automatically.
 
 ## Product shape
 

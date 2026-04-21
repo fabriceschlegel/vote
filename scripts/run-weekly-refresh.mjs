@@ -13,7 +13,7 @@ const steps = [
   },
   {
     label: "Build derived audit outputs",
-    command: "python3",
+    command: process.env.PYTHON ?? "python3",
     args: ["scripts/build-data-harness.py"],
   },
 ];

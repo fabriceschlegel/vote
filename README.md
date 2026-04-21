@@ -55,21 +55,19 @@ To rebuild the candidate pages from the refreshed source set:
 OPENAI_API_KEY=... npm run generate:candidate-data
 ```
 
-Those commands read [data/source-manifest.json](/Users/fschlege@amgen.com/Developer/vote/data/source-manifest.json), write the downloaded files into `data/raw/`, and then build a derived JSON cache plus quality reports under `data/derived/`.
+Those commands read [data/source-manifest.json](data/source-manifest.json), write the downloaded files into `data/raw/`, and then build a derived JSON cache plus quality reports under `data/derived/`.
 
-`npm run build:archive` generates [data/official-record-archive.json](/Users/fschlege@amgen.com/Developer/vote/data/official-record-archive.json) from Winchester's Agenda Center across the current high-signal committee set, including School Committee, Select Board, Finance Committee, Planning Board, Town Meeting, and other related public bodies across a rolling 10-year window.
+`npm run build:archive` generates [data/official-record-archive.json](data/official-record-archive.json) from Winchester's Agenda Center across the current high-signal committee set, including School Committee, Select Board, Finance Committee, Planning Board, Town Meeting, and other related public bodies across a rolling 10-year window.
 
 `npm run audit:data` creates:
 
-- [data/derived/source-quality-report.json](/Users/fschlege@amgen.com/Developer/vote/data/derived/source-quality-report.json) to score the raw source files you have already fetched
-- [data/derived/official-record-quality-report.json](/Users/fschlege@amgen.com/Developer/vote/data/derived/official-record-quality-report.json) to show which archive entries are still agenda-only versus which have minutes available
+- [data/derived/source-quality-report.json](data/derived/source-quality-report.json) to score the raw source files you have already fetched
+- [data/derived/official-record-quality-report.json](data/derived/official-record-quality-report.json) to show which archive entries are still agenda-only versus which have minutes available
 - `data/derived/sources/*.json` as the extracted JSON cache for raw PDF and HTML source text
 
 ## Weekly automation
 
-Transport note: this branch stores the workflow file at [docs/weekly-data-refresh.yml](/tmp/vote-phase1-sync/docs/weekly-data-refresh.yml) instead of `.github/workflows/weekly-data-refresh.yml` because the current GitHub token cannot push workflow-path changes. Move it back under `.github/workflows/` on the next machine before enabling the automation.
-
-Phase 1 uses a scheduled GitHub Actions workflow at [.github/workflows/weekly-data-refresh.yml](/Users/fschlege@amgen.com/Developer/vote/.github/workflows/weekly-data-refresh.yml). After this branch is merged, GitHub will run it every Monday at `11:00 UTC`, or you can trigger it manually with `workflow_dispatch`.
+Phase 1 uses a scheduled GitHub Actions workflow at [.github/workflows/weekly-data-refresh.yml](.github/workflows/weekly-data-refresh.yml). After this branch is merged, GitHub will run it every Monday at `11:00 UTC`, or you can trigger it manually with `workflow_dispatch`.
 
 The workflow:
 
@@ -85,9 +83,9 @@ Repository setup required for the candidate sync:
 - optionally add a repository variable named `OPENAI_MODEL` if you do not want the default `gpt-5.4`
 - optionally add `BALLOT_LIGHT_CANDIDATE_HISTORY_CYCLES` to control how many election cycles stay on the site
 
-The app now reads generated candidate page data from [data/generated/candidate-profiles.json](/Users/fschlege@amgen.com/Developer/vote/data/generated/candidate-profiles.json) when that file is populated, and falls back to the manually authored TypeScript profiles otherwise.
+The app now reads generated candidate page data from [data/generated/candidate-profiles.json](data/generated/candidate-profiles.json) when that file is populated, and falls back to the manually authored TypeScript profiles otherwise.
 
-Current limitation: source discovery is still curated by [data/source-manifest.json](/Users/fschlege@amgen.com/Developer/vote/data/source-manifest.json). The workflow can regenerate candidate pages from the sources already in the manifest, but it does not yet crawl Winchester sites for brand-new URLs and add them to the manifest automatically.
+Current limitation: source discovery is still curated by [data/source-manifest.json](data/source-manifest.json). The workflow can regenerate candidate pages from the sources already in the manifest, but it does not yet crawl Winchester sites for brand-new URLs and add them to the manifest automatically.
 
 ## Product shape
 

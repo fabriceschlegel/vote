@@ -1,6 +1,225 @@
 {
-  "generatedAt": null,
-  "model": null,
+  "generatedAt": "2026-04-21T04:00:40.980Z",
+  "model": "gpt-5.4",
   "promptVersion": "candidate-sync-v1",
-  "candidates": []
+  "candidates": [
+    {
+      "id": "anthea-brady",
+      "electionYear": 2025,
+      "sourceIds": [
+        "news-anthea-brady-profile-2025",
+        "official-election-results-2025",
+        "official-sott-minutes-2025-05-30",
+        "news-select-board-forum-2025",
+        "news-town-meeting-school-budget-2025",
+        "news-election-night-2025",
+        "news-select-board-override-vote",
+        "news-election-night-2026"
+      ],
+      "fingerprint": "3708f208ac46d3449e8f1905dda497522fef8f98c18a84df5487542856bfe0f5",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "dorothy-r-simboli",
+      "electionYear": 2025,
+      "sourceIds": [
+        "news-dorothy-simboli-profile-2025",
+        "official-election-results-2025",
+        "news-select-board-forum-2025",
+        "news-town-meeting-school-budget-2025",
+        "news-election-night-2025"
+      ],
+      "fingerprint": "b0560e508497165a83df91864e4b2b4ee517e75a4a5a9009406ca8e8c8f23ca0",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "rick-welch",
+      "electionYear": 2025,
+      "sourceIds": [
+        "news-rick-welch-profile-2025",
+        "official-election-results-2025"
+      ],
+      "fingerprint": "1f712f3c67e3885b48cfb0741c7b3575f75b90eee397b435fe5f36ba9872d1e2",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "paras-bhayani",
+      "electionYear": 2025,
+      "sourceIds": [
+        "news-paras-bhayani-profile-2025",
+        "official-election-results-2025",
+        "official-sott-minutes-2025-05-30",
+        "news-select-board-forum-2025",
+        "news-election-night-2025",
+        "news-select-board-override-vote"
+      ],
+      "fingerprint": "982079eb2d219cfa572ff4a170775e23aa5b7db684c7e85d6c32ee23acbb4cfb",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "karen-maruyama-bolognese",
+      "electionYear": 2025,
+      "sourceIds": [
+        "news-karen-maruyama-bolognese-profile-2025",
+        "official-election-results-2025",
+        "official-sott-minutes-2025-05-30",
+        "news-school-committee-forum-2025",
+        "news-election-night-2025"
+      ],
+      "fingerprint": "77aef0140f2596dddb794210d10e3ff3ebb4f47b0ae425af417f51b75bd12b12",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "christian-nixon",
+      "electionYear": 2025,
+      "sourceIds": [
+        "news-christian-nixon-profile-2025",
+        "official-election-results-2025",
+        "news-election-night-2025"
+      ],
+      "fingerprint": "cec674524827cc013e4a32466ad0dca83893d4ab41b38e730e7c522623258970",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "stefanie-mnayarji",
+      "electionYear": 2025,
+      "sourceIds": [
+        "news-stefanie-mnayarji-profile-2025",
+        "official-election-results-2025",
+        "official-sott-minutes-2025-05-30",
+        "news-school-committee-forum-2025",
+        "news-election-night-2025"
+      ],
+      "fingerprint": "1a22f28d072e2edee671b743e48929ac8487163da68a53b23ec23f33f6691aed",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "jack-lemenager",
+      "electionYear": 2025,
+      "sourceIds": [
+        "news-jack-lemenager-profile-2025",
+        "official-election-results-2025",
+        "news-election-night-2025"
+      ],
+      "fingerprint": "225570125fc8cecfeecb64edaf806f9547a103a814b21a88cea9bdb5d32cbd20",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "john-bellaire",
+      "electionYear": 2026,
+      "sourceIds": [
+        "news-john-bellaire-profile",
+        "official-election-results-2026",
+        "news-school-committee-forum"
+      ],
+      "fingerprint": "17cc86d1c4ddee185dece6a1a07c61409857b7c9698e155b4051cdba675217fc",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "heather-von-mering",
+      "electionYear": 2026,
+      "sourceIds": [
+        "news-heather-von-mering-profile",
+        "official-election-results-2026",
+        "news-school-committee-forum",
+        "news-town-meeting-school-budget-2025",
+        "news-election-night-2025",
+        "news-election-night-2026"
+      ],
+      "fingerprint": "91d06ded0e1340034f286b5b3f1070622889e6ba2c86ad67d9a63a19be47450e",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "keri-layton",
+      "electionYear": 2026,
+      "sourceIds": [
+        "news-keri-layton-profile",
+        "official-election-results-2026",
+        "news-planning-board-forum-2026",
+        "news-election-night-2026"
+      ],
+      "fingerprint": "cc0ddcfda8abc6775ad03b016c5a526f5aa2c5400823771125a0776de839702e",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "nick-rossettos",
+      "electionYear": 2026,
+      "sourceIds": [
+        "news-nick-rossettos-profile",
+        "official-election-results-2026",
+        "news-planning-board-forum-2026"
+      ],
+      "fingerprint": "d017eadf95efe7103326d91ee6745c956513f52d5dd0414321010baee457b84a",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "amy-beliveau",
+      "electionYear": 2026,
+      "sourceIds": [
+        "news-amy-beliveau-profile",
+        "official-election-results-2026",
+        "news-planning-board-forum-2026",
+        "news-election-night-2026"
+      ],
+      "fingerprint": "e0113e7501e168b7f47aa3180aec2f974dd5f2f0837bd57381bff470ad696a7a",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "shamus-brady",
+      "electionYear": 2026,
+      "sourceIds": [
+        "news-shamus-brady-profile",
+        "official-election-results-2026",
+        "news-school-committee-budget-2024",
+        "news-school-literacy-motion-2024",
+        "news-election-night-2026"
+      ],
+      "fingerprint": "2b7e13de6feb3f11ef220122bf2d0633094b3763f9acf782e90e722e37d1afd7",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    },
+    {
+      "id": "michelle-prior",
+      "electionYear": 2026,
+      "sourceIds": [
+        "news-michelle-prior-profile",
+        "official-election-results-2026",
+        "official-sott-minutes-2025-05-30",
+        "news-select-board-override-vote",
+        "news-override-fallout",
+        "news-election-night-2026"
+      ],
+      "fingerprint": "beb8444d88ab2f3af0011605891134bdab14fa4244c67a180592af7accab4687",
+      "model": "gpt-5.4",
+      "promptVersion": "candidate-sync-v1",
+      "reused": false
+    }
+  ]
 }

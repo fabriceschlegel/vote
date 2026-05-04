@@ -9,45 +9,45 @@
     "officeLabel": "Planning Board",
     "raceLabel": "2026 Planning Board race",
     "status": "elected",
-    "background": "Six-year Winchester resident, Town Meeting member for precinct seven, with experience in real estate, development, design and negotiation. She also cited service on Town Meeting, the EFPBC, and the State of the Town Committee.",
-    "summary": "Amy Beliveau won a Planning Board seat in 2026 as a challenger who emphasized balanced growth, housing production, and practical real-estate and development experience.",
-    "locationNote": "Winchester resident; Town Meeting member representing precinct seven.",
+    "background": "Six-year Winchester resident with more than a decade of experience in development, design, negotiation, and real estate. She said she has served on Town Meeting, the EFPBC, and the State of the Town Committee.",
+    "summary": "Amy Beliveau won a Planning Board seat in 2026, running as a challenger with real estate and development experience. In campaign materials and a candidate forum, she emphasized balanced growth, data-driven decision-making, collaboration, and adding housing while respecting Winchester’s history.",
+    "locationNote": "Winchester resident; Town Meeting member for precinct seven.",
     "priorRecordStrength": "adjacent",
-    "priorRecordLabel": "Town Meeting and local committee service",
-    "priorRecordSummary": "Beliveau presented her Town Meeting service and work on the EFPBC and State of the Town Committee as relevant preparation, alongside professional experience in real estate and development.",
+    "priorRecordLabel": "Town Meeting and town committee service",
+    "priorRecordSummary": "Beliveau cited service on Town Meeting, the EFPBC, and the State of the Town Committee, but the provided sources do not show a prior Planning Board voting record.",
     "keyThemes": [
-      "Balanced growth",
-      "Housing production",
-      "Zoning and development process",
-      "Historic preservation alongside growth",
-      "Data-driven decision-making"
+      "Balanced and thoughtful growth",
+      "Housing production and zoning",
+      "Historic preservation alongside development",
+      "Data-driven and collaborative decision-making",
+      "Development and real estate expertise"
     ],
     "stanceCards": [
       {
         "topicId": "school-facilities",
         "tone": "gap",
-        "label": "No clear school facilities position in provided sources",
-        "detail": "The provided Planning Board sources do not show a specific stance from Beliveau on school facilities."
+        "label": "No school facilities position in provided sources",
+        "detail": "The provided sources focus on planning, housing, zoning, and growth, not school facilities."
       },
       {
         "topicId": "affordability",
         "tone": "support",
         "label": "Supports expanding housing options",
-        "detail": "At the Planning Board forum, Beliveau argued Winchester must add housing and suggested looking beyond transit-oriented corridors to interior conversions of large homes in single-family neighborhoods."
+        "detail": "At the forum, Beliveau said larger buildings can still offer housing opportunities and urged the town to consider interior conversions of large homes in single-family neighborhoods."
       },
       {
         "topicId": "fiscal-governance",
         "tone": "support",
-        "label": "Emphasizes financially informed planning decisions",
-        "detail": "In her candidate profile, Beliveau said she understands project financials and what levers the town can use to create value and meet objectives."
+        "label": "Emphasizes financial analysis in planning decisions",
+        "detail": "She said she understands project financials and what levers the town can use to create value and achieve its objectives, and described herself as a data-driven decision maker."
       }
     ],
     "evidence": [
       {
         "id": "e1",
         "kind": "statement",
-        "title": "Candidate profile outlines development and town-government experience",
-        "summary": "Beliveau said she would bring more than a decade of development, design and negotiation experience, plus service on Town Meeting, the EFPBC, and the State of the Town Committee. She described herself as a data-driven decision maker focused on balanced, thoughtful growth.",
+        "title": "Candidate profile outlines development and town-government background",
+        "summary": "Beliveau said she would bring over a decade of development, design, and negotiation experience, plus service on Town Meeting, the EFPBC, and the State of the Town Committee. She emphasized real estate knowledge, project finance, and data-driven collaboration.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -56,11 +56,11 @@
       {
         "id": "e2",
         "kind": "forum",
-        "title": "Forum highlights housing and preservation approach",
-        "summary": "At the League of Women Voters forum, Beliveau said she brings real estate industry knowledge the board lacks and argued that historic value and larger-scale housing opportunities are not mutually exclusive.",
+        "title": "Forum comments on housing growth and preservation",
+        "summary": "At the Planning Board forum, Beliveau said she brings real estate industry knowledge the board lacks, argued historic character is not limited to small buildings, and said larger buildings can still provide housing opportunities.",
         "topicIds": [
           "affordability",
-          "fiscal-governance"
+          "school-facilities"
         ],
         "sourceId": "news-planning-board-forum-2026"
       },
@@ -68,7 +68,7 @@
         "id": "e3",
         "kind": "forum",
         "title": "Beliveau backs broader housing strategies",
-        "summary": "Beliveau urged Winchester to look beyond MBTA Communities transit-oriented corridors and consider interior conversions of large homes in single-family neighborhoods.",
+        "summary": "She urged Winchester to look beyond transit-oriented corridors under the MBTA Communities Act and consider interior conversions of large homes in single-family neighborhoods.",
         "topicIds": [
           "affordability"
         ],
@@ -76,23 +76,23 @@
       },
       {
         "id": "e4",
-        "kind": "vote",
-        "title": "Official 2026 election results",
-        "summary": "In the two-seat Planning Board race, Beliveau received 2,042 votes, finishing second behind Keri Layton and ahead of Nicholas Rossettos, winning a seat.",
-        "topicIds": [
-          "fiscal-governance"
-        ],
-        "sourceId": "official-election-results-2026"
-      },
-      {
-        "id": "e5",
         "kind": "context",
-        "title": "Election-night report says Beliveau unseated incumbent",
-        "summary": "Winchester News reported that newcomer Amy Beliveau unseated incumbent Nicholas Rossettos to claim one of two open Planning Board seats.",
+        "title": "Election-night coverage says Beliveau unseated the incumbent",
+        "summary": "Winchester News reported that Beliveau unseated incumbent Nicholas Rossettos to claim one of two open Planning Board seats.",
         "topicIds": [
           "fiscal-governance"
         ],
         "sourceId": "news-election-night-2026"
+      },
+      {
+        "id": "e5",
+        "kind": "vote",
+        "title": "Official results show Beliveau elected to Planning Board",
+        "summary": "Official town results list Planning Board votes with Keri Layton at 2,331, Amy S. Beliveau at 2,042, and Nicholas J. Rossettos at 1,864 for two seats, placing Beliveau second and in a winning position.",
+        "topicIds": [
+          "fiscal-governance"
+        ],
+        "sourceId": "official-election-results-2026"
       }
     ]
   },
@@ -106,57 +106,57 @@
     "officeLabel": "School Committee",
     "raceLabel": "2026 School Committee race",
     "status": "lost",
-    "background": "Mother of five in Winchester Public Schools; works as a vice president in construction and asset planning. She has served for 16 years in Winchester town government, including the Historical Commission, Planning Board, Capital Planning Committee, Town Meeting, and as town moderator.",
-    "summary": "Von Mering ran for School Committee in 2026 emphasizing parent experience, literacy reform, special education advocacy, facilities planning, and municipal finance experience. She argued the district should focus on closing literacy and math gaps and strengthening supports before taking on new commitments. She lost the race to John Bellaire.",
+    "background": "Mother of five in Winchester Public Schools; works in construction and asset planning as a vice president at Von Salmi & Associates. Served 16 years in Winchester town government, including the Historical Commission, Planning Board, Capital Planning Committee, Town Moderator, and Town Meeting.",
+    "summary": "Von Mering ran for School Committee in 2026 emphasizing parent experience, literacy reform, special education advocacy, facilities planning, and municipal finance experience. She argued the district should focus on closing literacy and math gaps and supported funding the school budget as requested in 2025. She lost the 2026 election to John Bellaire.",
     "locationNote": "Winchester resident; moved to Winchester in 2009.",
     "priorRecordStrength": "adjacent",
-    "priorRecordLabel": "Town government and education advocacy",
-    "priorRecordSummary": "Her public record is primarily through Winchester town government service and school-related advocacy rather than prior School Committee service. Sources describe work on literacy reform and special education advocacy, plus a 2025 Town Meeting amendment supporting the school budget as requested.",
+    "priorRecordLabel": "Town government and Town Meeting record",
+    "priorRecordSummary": "Von Mering had extensive town-government service and took a visible role in 2025 Town Meeting school budget debate, but the sources do not show a prior School Committee voting record.",
     "keyThemes": [
-      "literacy reform",
-      "special education advocacy",
-      "early intervention",
-      "facilities stewardship",
-      "municipal finance and transparency"
+      "Literacy reform",
+      "Special education advocacy",
+      "Facilities and capital planning",
+      "Municipal finance and transparency",
+      "Early intervention for student support"
     ],
     "stanceCards": [
       {
         "topicId": "literacy",
         "tone": "support",
-        "label": "Pushes literacy reform",
-        "detail": "She described herself as a long-time advocate for literacy reform, especially for students with dyslexia and language-based learning disabilities, and supported the district’s new literacy curriculum while cautioning that early data would be unreliable."
+        "label": "Backs literacy reform and early identification",
+        "detail": "She described herself as a long-time literacy reform advocate, supported the district’s new literacy curriculum, and emphasized early identification of dyslexia and stronger foundational instruction and Tier 2 supports."
       },
       {
         "topicId": "school-budget",
         "tone": "support",
-        "label": "Supported funding the requested school budget",
-        "detail": "At 2025 Town Meeting, she said Town Meeting should fund the school budget as requested and opposed using Circuit Breaker funds for the FY26 budget."
+        "label": "Supported full requested school budget in 2025",
+        "detail": "At Town Meeting, she opposed using Circuit Breaker funds for the FY26 budget and urged funding the School Committee’s requested budget, with free cash used to offset the deficit."
       },
       {
         "topicId": "school-facilities",
         "tone": "support",
-        "label": "Facilities and capital planning background",
-        "detail": "She cited her construction and asset-planning work as informing her approach to facilities governance, capital planning, budgeting, and stewardship of school buildings."
+        "label": "Brings facilities planning background",
+        "detail": "She said her construction and asset-planning work informs her approach to facilities governance, long-term capital planning, budgeting, and stewardship of school buildings."
+      },
+      {
+        "topicId": "fiscal-governance",
+        "tone": "support",
+        "label": "Emphasizes finance and transparent process",
+        "detail": "She cited long service on the town-government side, including capital planning and town moderator roles, and said that experience shaped her views on municipal finance, public process, transparency, and disciplined goal setting."
       },
       {
         "topicId": "technology",
         "tone": "caution",
-        "label": "Wants expert-led technology policy",
-        "detail": "On AI and school technology policy, she said the School Committee should rely on outside expertise and that she was not the expert to draft that policy alone."
-      },
-      {
-        "topicId": "mental-health",
-        "tone": "support",
-        "label": "Called for more attention to student mental health",
-        "detail": "Election-night coverage said both candidates called for greater attention to student mental health."
+        "label": "Would defer to expertise on tech policy",
+        "detail": "On artificial intelligence and school technology policy, she said the School Committee should rely on outside expertise and that writing policy without subject-matter expertise would be inappropriate."
       }
     ],
     "evidence": [
       {
-        "id": "e1",
+        "id": "ev1",
         "kind": "statement",
-        "title": "Candidate profile outlines parent, advocate, professional, and town leader experience",
-        "summary": "Von Mering said she would bring perspectives as a parent of five in Winchester schools, a literacy and special education advocate, a construction and asset-planning professional, and a longtime town leader with municipal finance experience.",
+        "title": "Candidate profile highlights parent, advocacy, professional, and town-government experience",
+        "summary": "Von Mering said she would bring perspectives as a parent of five in Winchester schools, a literacy and special education advocate, a construction and asset-planning professional, and a longtime town leader with experience in municipal finance and public process.",
         "topicIds": [
           "literacy",
           "school-facilities",
@@ -165,31 +165,30 @@
         "sourceId": "news-heather-von-mering-profile"
       },
       {
-        "id": "e2",
+        "id": "ev2",
         "kind": "forum",
-        "title": "Forum coverage highlights literacy advocacy and early intervention views",
-        "summary": "At the candidate forum, she said she had advocated for curriculum changes since at least 2017, described organizing families around dyslexia identification, and argued early support lowers later costs.",
+        "title": "Forum coverage describes literacy and special education priorities",
+        "summary": "At the School Committee forum, she supported the new literacy curriculum, said district-wide data would be unreliable for the first three years, and described advocacy around dyslexia identification, DIBELS, and early support for students.",
         "topicIds": [
-          "literacy",
-          "affordability"
+          "literacy"
         ],
         "sourceId": "news-school-committee-forum"
       },
       {
-        "id": "e3",
+        "id": "ev3",
         "kind": "forum",
-        "title": "Forum comments on technology policy",
-        "summary": "Discussing AI in schools, she said the School Committee should rely on outside expertise and that she was not an expert suited to write technology policy alone.",
+        "title": "Forum remarks on technology policy",
+        "summary": "Discussing artificial intelligence in schools, she said the School Committee should rely on outside expertise and that she was not an expert suited to write technology policy alone.",
         "topicIds": [
           "technology"
         ],
         "sourceId": "news-school-committee-forum"
       },
       {
-        "id": "e4",
+        "id": "ev4",
         "kind": "vote",
-        "title": "Town Meeting amendment supporting requested school budget",
-        "summary": "In 2025, von Mering moved to amend the school budget to the School Committee recommendation with additional free cash, saying Town Meeting should fund the school budget as requested and not use Circuit Breaker funds for FY26.",
+        "title": "2025 Town Meeting amendment supporting school budget",
+        "summary": "As a Town Meeting member, von Mering said she did not support using Circuit Breaker funds for the FY26 budget and moved an amendment to fund the school budget as requested, with additional free cash to offset the deficit.",
         "topicIds": [
           "school-budget",
           "fiscal-governance"
@@ -197,7 +196,7 @@
         "sourceId": "news-town-meeting-school-budget-2025"
       },
       {
-        "id": "e5",
+        "id": "ev5",
         "kind": "context",
         "title": "Election-night summary of campaign message",
         "summary": "Election-night coverage said von Mering argued the district should close literacy and math gaps before taking on new commitments, and that both candidates called for greater attention to student mental health and said Winchester lacked a coherent technology policy.",
@@ -209,10 +208,10 @@
         "sourceId": "news-election-night-2026"
       },
       {
-        "id": "e6",
+        "id": "ev6",
         "kind": "vote",
-        "title": "2026 School Committee election result",
-        "summary": "Official results show John H. Bellaire received 2,192 votes to Heather R. von Mering’s 1,861 in the 2026 School Committee race.",
+        "title": "Official 2026 election results",
+        "summary": "Official results show von Mering received 1,861 votes for School Committee, behind John Bellaire’s 2,192.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -230,72 +229,68 @@
     "officeLabel": "School Committee",
     "raceLabel": "2026 School Committee race",
     "status": "elected",
-    "background": "Winchester High School graduate and Brown University graduate who studied education and public policy. He works full time for Bellwether, a national education nonprofit focused on state school finance, and has described himself as an education researcher, youth mentor, and Winchester Public Schools graduate.",
-    "summary": "Bellaire presented himself as a school-finance-oriented education policy researcher with local ties to Winchester Public Schools. In campaign materials and forum coverage, he emphasized equitable and transparent school finance, earlier literacy intervention, student mental health, student opportunities, and attention to technology in the classroom.",
-    "locationNote": "Winchester Public Schools graduate; worked as a substitute teacher at Vinson-Owen Elementary during the 2021-2022 school year and as Weekend Mentor for Winchester A Better Chance.",
+    "background": "Education researcher and Winchester Public Schools graduate. Bellaire works for Bellwether, a national education nonprofit focused on state school finance, and has also worked as a youth mentor with Winchester A Better Chance and as a substitute teacher at Vinson-Owen Elementary School during the 2021-2022 school year.",
+    "summary": "Bellaire presented himself as a young education-policy candidate with local school experience, emphasizing equitable and transparent school finance, earlier academic intervention, student mental health, and attention to technology in classrooms. In the 2026 election, he won the open School Committee seat.",
+    "locationNote": "Winchester Public Schools graduate; attended Muraco Elementary, McCall Middle School, and Winchester High School.",
     "priorRecordStrength": "adjacent",
-    "priorRecordLabel": "Education policy and local civic experience",
-    "priorRecordSummary": "Bellaire's cited experience is mainly in education research, school finance modeling, school quality reviews, youth mentoring, substitute teaching, and local Town Meeting service rather than prior School Committee service.",
+    "priorRecordLabel": "Education policy and local youth work",
+    "priorRecordSummary": "His cited experience is in education research, school finance modeling, school quality reviews, mentoring Winchester ABC students, and substitute teaching, rather than prior service on the School Committee itself.",
     "keyThemes": [
-      "school finance and budget analysis",
+      "school finance transparency",
       "early literacy intervention",
+      "special education costs and early support",
       "student mental health",
-      "technology in the classroom",
-      "student development and opportunities"
+      "technology in the classroom"
     ],
     "stanceCards": [
       {
-        "topicId": "school-budget",
+        "topicId": "fiscal-governance",
         "tone": "support",
-        "label": "Budget and finance focus",
-        "detail": "He said his work includes developing financial models to help build equitable and transparent school finance systems and described experience interrogating school budgets."
+        "label": "Transparent school finance",
+        "detail": "Said his work includes developing financial models to help build equitable and transparent school finance systems, and he highlighted experience interrogating school budgets."
       },
       {
         "topicId": "literacy",
         "tone": "support",
-        "label": "Push for earlier literacy action",
-        "detail": "At the forum, he said Winchester had been delayed on literacy and argued for earlier support so students do not fall behind and later need more intensive services."
+        "label": "Push for faster literacy improvement",
+        "detail": "Said Winchester has been delayed on literacy and argued for earlier support when students first fall behind."
       },
       {
         "topicId": "mental-health",
         "tone": "support",
         "label": "Support student mental health",
-        "detail": "In his candidate profile, he said his experiences as a Winchester student motivate him to support student mental health."
+        "detail": "In his candidate profile, he said his experiences motivate him to support student mental health."
       },
       {
         "topicId": "technology",
         "tone": "monitor",
-        "label": "Attention to classroom technology",
-        "detail": "In his candidate profile, he said his experiences motivate him to address technology in the classroom."
+        "label": "Address classroom technology",
+        "detail": "He said his experiences as a student in Winchester motivate him to address technology in the classroom."
+      },
+      {
+        "topicId": "school-budget",
+        "tone": "monitor",
+        "label": "Uses budget data in student-support arguments",
+        "detail": "At the forum, he referenced the share of the school budget going to special education while arguing that earlier intervention could better support students."
       }
     ],
     "evidence": [
       {
         "id": "e1",
         "kind": "statement",
-        "title": "Candidate profile highlights education research and finance background",
-        "summary": "Bellaire said he works at a leading education nonprofit conducting research and financial modeling to help build equitable and transparent school finance systems, and that these experiences equip him to serve on the School Committee.",
+        "title": "Candidate profile describes education policy background",
+        "summary": "Bellaire said he is an education researcher, Winchester Public Schools graduate, and nonprofit staff member who develops financial models for equitable and transparent school finance systems and conducts school quality reviews.",
         "topicIds": [
-          "school-budget",
-          "fiscal-governance"
+          "fiscal-governance",
+          "school-budget"
         ],
         "sourceId": "news-john-bellaire-profile"
       },
       {
         "id": "e2",
         "kind": "statement",
-        "title": "Candidate profile cites mentoring, substitute teaching, and Winchester schools background",
-        "summary": "He described serving as Weekend Mentor for Winchester A Better Chance, leading youth programming, working as a substitute teacher at Vinson-Owen Elementary in 2021-2022, and graduating from Muraco, McCall, and Winchester High.",
-        "topicIds": [
-          "mental-health"
-        ],
-        "sourceId": "news-john-bellaire-profile"
-      },
-      {
-        "id": "e3",
-        "kind": "statement",
-        "title": "Candidate profile names student engagement, technology, and mental health as motivations",
-        "summary": "Bellaire said his firsthand student experience in Winchester motivates him to provide high-quality student engagement opportunities, address technology in the classroom, and support student mental health.",
+        "title": "Candidate profile cites mentoring, substitute teaching, and student-focused priorities",
+        "summary": "He said he works with Winchester A Better Chance, previously served as a substitute teacher at Vinson-Owen, and wants to provide high-quality student engagement opportunities, address classroom technology, and support student mental health.",
         "topicIds": [
           "technology",
           "mental-health"
@@ -303,30 +298,31 @@
         "sourceId": "news-john-bellaire-profile"
       },
       {
-        "id": "e4",
+        "id": "e3",
         "kind": "forum",
-        "title": "Forum coverage describes literacy and special education comments",
-        "summary": "At the candidate forum, Bellaire said Winchester had been behind on literacy, cited worsening MCAS reading performance since 2019, and argued that addressing problems in first grade is preferable to waiting until students fall further behind.",
+        "title": "Forum remarks on literacy delays and early intervention",
+        "summary": "At the candidate forum, Bellaire said Winchester has been behind on literacy, cited worsening MCAS reading performance since 2019, and argued that addressing problems in first grade is better than waiting until students fall further behind.",
         "topicIds": [
-          "literacy"
-        ],
-        "sourceId": "news-school-committee-forum"
-      },
-      {
-        "id": "e5",
-        "kind": "forum",
-        "title": "Forum coverage summarizes professional background and student-centered framing",
-        "summary": "Forum coverage said Bellaire graduated from Winchester High in 2021, studied education and public policy at Brown, works for Bellwether on state school finance, and said every student should have the opportunity to develop into their best selves.",
-        "topicIds": [
+          "literacy",
           "school-budget"
         ],
         "sourceId": "news-school-committee-forum"
       },
       {
-        "id": "e6",
+        "id": "e4",
+        "kind": "context",
+        "title": "Forum coverage describes race context and candidate background",
+        "summary": "Forum coverage said Bellaire graduated from Winchester High School in 2021, studied education and public policy at Brown, and works for Bellwether, a national education nonprofit focused on state school finance.",
+        "topicIds": [
+          "fiscal-governance"
+        ],
+        "sourceId": "news-school-committee-forum"
+      },
+      {
+        "id": "e5",
         "kind": "vote",
-        "title": "2026 election result: Bellaire won School Committee seat",
-        "summary": "Official town election results show John H. Bellaire received 2,192 votes for School Committee, defeating Heather R. Von Mering's 1,861.",
+        "title": "2026 election results for School Committee",
+        "summary": "Official results show John H. Bellaire received 2,192 votes to Heather R. von Mering’s 1,861 in the one-seat School Committee race.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -344,55 +340,61 @@
     "officeLabel": "Planning Board",
     "raceLabel": "2026 Planning Board race",
     "status": "reelected",
-    "background": "Incumbent Planning Board member seeking a second term in 2026. Previously served as a Precinct 2 Town Meeting member, on the Master Plan Steering Committee, and for three years on the Conservation Commission.",
-    "summary": "Layton presented herself as an experienced incumbent focused on housing production, zoning reform, and balancing development with conservation and town character. She highlighted work on MBTA Communities zoning, the Main Street Mixed Use District, and ADU zoning changes, and won one of two Planning Board seats in 2026.",
-    "locationNote": "Winchester; previously represented Precinct 2 in Town Meeting and later moved into a historic home in town.",
+    "background": "Layton said she began civic work in Winchester as a Precinct 2 Town Meeting member in 2017, later served on the Master Plan Steering Committee, then served three years on the Conservation Commission before joining the Planning Board. She said she chaired the Planning Board during North Main Street rezoning and is seeking a second term.",
+    "summary": "Incumbent Planning Board member with prior Town Meeting, master plan, and Conservation Commission experience. In campaign materials and the candidate forum, she emphasized balancing growth with conservation, advancing zoning changes for multifamily and accessory dwelling units, and using mixed-use development to expand the commercial tax base. She won reelection in 2026.",
+    "locationNote": "Winchester townwide Planning Board race.",
     "priorRecordStrength": "direct",
-    "priorRecordLabel": "Planning Board incumbent; prior town boards and committees",
-    "priorRecordSummary": "Layton said she began as a Precinct 2 Town Meeting member in 2017, served on the Master Plan Steering Committee, then on the Conservation Commission for three years. On the Planning Board, she said she chaired the board during MBTA Communities implementation and North Main Street rezoning work, and helped advance the Main Street Mixed Use District and ADU by-right zoning changes.",
+    "priorRecordLabel": "Planning Board incumbent and former board chair",
+    "priorRecordSummary": "Layton described serving on the Planning Board, chairing it during the North Main Street rezoning, helping advance MBTA Communities Act multifamily zoning, the Main Street Mixed Use District, and ADU by-right zoning. She also referenced participation in review of the 10 Converse Place redevelopment proposal.",
     "keyThemes": [
-      "Housing production and zoning reform",
-      "Balancing development with conservation interests",
-      "Downtown and mixed-use planning",
-      "Affordable housing goals",
-      "Predictable development standards"
+      "housing production and zoning reform",
+      "balancing development with conservation interests",
+      "mixed-use development and commercial tax base",
+      "historic and neighborhood character",
+      "planning process and pre-application expectations"
     ],
     "stanceCards": [
       {
         "topicId": "school-facilities",
-        "tone": "gap",
-        "label": "No clear school facilities platform in sources",
-        "detail": "Available sources focus on planning, zoning, housing growth, and preservation rather than school facilities."
+        "tone": "monitor",
+        "label": "Links planning to town assets including schools",
+        "detail": "Layton said natural resources are as critical to Winchester as its historic buildings and excellent schools, framing land-use decisions as part of preserving key town assets."
+      },
+      {
+        "topicId": "town-revenue",
+        "tone": "support",
+        "label": "Supports mixed-use growth to broaden tax base",
+        "detail": "At the forum, Layton said mixed-use projects can expand the commercial tax base without adding students to schools."
       },
       {
         "topicId": "affordability",
         "tone": "support",
-        "label": "Supports added housing supply and affordable housing planning",
-        "detail": "Layton argued Winchester still needs hundreds of subsidized housing units, supported multifamily zoning near downtown, and said mixed-use projects can expand the commercial tax base."
+        "label": "Supports added housing and affordable units",
+        "detail": "She said Winchester remains hundreds of subsidized units short of the 10% threshold, supported multifamily zoning near the train station, and discussed affordable housing expectations for downtown development."
       },
       {
         "topicId": "fiscal-governance",
         "tone": "support",
-        "label": "Emphasizes planning standards and mixed-use tax base",
-        "detail": "At the forum, Layton said pre-application meetings should clarify affordable housing requirements, aesthetics, and height expectations, and said mixed-use projects can grow commercial taxes without adding students to schools."
+        "label": "Emphasizes clearer development expectations",
+        "detail": "Layton said the board should use pre-application meetings to set affordable housing, design, and height expectations early for developers."
       }
     ],
     "evidence": [
       {
-        "id": "result-reelected",
-        "kind": "vote",
-        "title": "Won reelection to Planning Board in 2026",
-        "summary": "Official results show Layton received 2,331 votes, the highest total in the two-seat race, and election-night coverage reported she led the field and won reelection.",
+        "id": "ev1",
+        "kind": "statement",
+        "title": "Candidate profile outlines civic and board experience",
+        "summary": "Layton said she served as a Precinct 2 Town Meeting member, on the Master Plan Steering Committee, on the Conservation Commission for three years, and then on the Planning Board, where she later became chair.",
         "topicIds": [
           "fiscal-governance"
         ],
-        "sourceId": "official-election-results-2026"
+        "sourceId": "news-keri-layton-profile"
       },
       {
-        "id": "profile-experience",
+        "id": "ev2",
         "kind": "statement",
-        "title": "Layton describes prior town service and Planning Board work",
-        "summary": "Layton said she served as a Town Meeting member, Master Plan Steering Committee representative, and Conservation Commission member before serving on the Planning Board, where she chaired work tied to MBTA Communities zoning, the Main Street Mixed Use District, and ADU by-right legislation.",
+        "title": "Profile cites support for MBTA zoning, mixed-use district, and ADUs",
+        "summary": "Layton said she oversaw final steps on zoning implementing the MBTA 3A Communities Act, helped bring the Main Street Mixed Use District to Town Meeting, and was proud the town passed ADUs by right.",
         "topicIds": [
           "affordability",
           "fiscal-governance"
@@ -400,36 +402,45 @@
         "sourceId": "news-keri-layton-profile"
       },
       {
-        "id": "forum-housing",
+        "id": "ev3",
         "kind": "forum",
-        "title": "Forum comments on housing growth and affordable housing needs",
-        "summary": "At the candidate forum, Layton said Winchester remained roughly 400 units short of the state subsidized housing threshold and urged creative approaches to distributing housing across town.",
+        "title": "Forum: Layton stresses housing need and distributed growth",
+        "summary": "At the League of Women Voters forum, Layton said Winchester was still about 400 units short of the 10% subsidized housing threshold and urged creative thinking about distributing housing across town rather than concentrating density in a few corridors.",
         "topicIds": [
           "affordability"
         ],
         "sourceId": "news-planning-board-forum-2026"
       },
       {
-        "id": "forum-mixed-use",
+        "id": "ev4",
         "kind": "forum",
-        "title": "Forum comments on development expectations and tax base",
-        "summary": "Layton said the board should set expectations early for developers on affordable housing, aesthetics, and height, and said mixed-use projects can expand the commercial tax base without adding students to schools.",
+        "title": "Forum: Layton backs clearer pre-application standards",
+        "summary": "Layton said the board should tell developers early what affordable housing requirements, aesthetic expectations, and height limits apply in the downtown area.",
         "topicIds": [
           "fiscal-governance",
-          "town-revenue",
           "affordability"
         ],
         "sourceId": "news-planning-board-forum-2026"
       },
       {
-        "id": "election-night",
-        "kind": "context",
-        "title": "Election-night coverage of Planning Board race",
-        "summary": "Winchester News reported Layton led the Planning Board field while Amy Beliveau won the second seat over Nicholas Rossettos.",
+        "id": "ev5",
+        "kind": "forum",
+        "title": "Forum: mixed-use projects can broaden tax base",
+        "summary": "Layton said mixed-use projects expand the commercial tax base without adding students to schools.",
+        "topicIds": [
+          "town-revenue"
+        ],
+        "sourceId": "news-planning-board-forum-2026"
+      },
+      {
+        "id": "ev6",
+        "kind": "vote",
+        "title": "2026 election results: Layton wins Planning Board seat",
+        "summary": "Official results show Layton received 2,331 votes in the race for two Planning Board seats, finishing first and winning reelection.",
         "topicIds": [
           "fiscal-governance"
         ],
-        "sourceId": "news-election-night-2026"
+        "sourceId": "official-election-results-2026"
       }
     ]
   },
@@ -443,49 +454,49 @@
     "officeLabel": "Select Board",
     "raceLabel": "2026 Select Board race",
     "status": "reelected",
-    "background": "Incumbent Select Board member seeking a second term in 2026. Prior’s profile cites 15 years on Town Meeting representing Precinct 4, six years on the Finance Committee including as FY24 chair, three years on the Select Board including two years as chair, and service on the Audit Advisory Committee, Retiree Health Insurance Advisory Committee, and Wright-Locke Farm Conservancy board.",
-    "summary": "Prior ran for reelection as an experienced incumbent emphasizing long-term financial planning, added non-property-tax revenue, housing options for different ages and incomes, and cross-board coordination. In override discussions, she argued against asking voters for more than identified needs and after the override loss called for listening sessions and surveys before pursuing another ballot question.",
+    "background": "Incumbent Select Board member and chair at the time of the 2026 race. Prior said she had 15 years on Town Meeting representing Precinct 4, six years on the Finance Committee including chairing FY24, three years on the Select Board with two years as chair, and service on the Audit Advisory Committee, Retiree Health Insurance Advisory Committee, and Wright Locke Farm Conservancy Board. A 2026 election-night report described her as a public-sector consultant with 35 years of experience.",
+    "summary": "Prior ran for a second Select Board term emphasizing town financial planning, non-property-tax revenue, housing options for residents of different ages and incomes, and coordination across boards and committees. She won reelection in March 2026.",
     "locationNote": "Winchester townwide Select Board race.",
     "priorRecordStrength": "direct",
-    "priorRecordLabel": "Select Board chair and Finance Committee veteran",
-    "priorRecordSummary": "Prior was serving on the Select Board during the 2025-26 budget and override debates, chaired the board, and described prior service on Town Meeting and the Finance Committee.",
+    "priorRecordLabel": "Select Board chair and finance committee experience",
+    "priorRecordSummary": "Sources show Prior was Select Board chair, participated in State of the Town work, and campaigned on her prior service on Town Meeting, Finance Committee, and Select Board.",
     "keyThemes": [
       "Long-term financial planning",
-      "Non-property-tax revenue",
-      "Housing and aging in place",
-      "Town service coordination and communication",
-      "Cautious override sizing"
+      "New town revenue beyond property taxes",
+      "Housing options and aging in place",
+      "Cross-board communication and customer service",
+      "Cost savings and renewable energy"
     ],
     "stanceCards": [
       {
         "topicId": "town-revenue",
         "tone": "support",
-        "label": "Pursues non-property-tax revenue",
-        "detail": "She called for more revenue through commercial growth, fee reviews, outside-hauler transfer station access, and leases on town assets such as roof space for solar providers."
+        "label": "Expand non-property-tax revenue",
+        "detail": "Called for more revenue beyond the residential property tax levy through commercial growth, fee reviews, monetizing town assets, and transfer station rate changes."
       },
       {
         "topicId": "affordability",
         "tone": "support",
-        "label": "Supports housing options",
-        "detail": "She said the Select Board should support housing development serving different family configurations and seniors who want to age in place."
+        "label": "Housing for varied incomes and ages",
+        "detail": "Said Winchester should remain a community where people of all ages and incomes can live and thrive, including housing that supports seniors aging in place."
       },
       {
         "topicId": "override",
         "tone": "caution",
-        "label": "Favored a narrower override ask",
-        "detail": "During the override debate, she said the board should not ask voters for money beyond what modeling showed was needed through FY2029."
+        "label": "Lean override sizing and post-defeat review",
+        "detail": "During override debate she argued against asking voters for more than modeled needs, and after the override loss said the town should first study why it failed through listening sessions, surveys, and focus groups."
       },
       {
         "topicId": "fiscal-governance",
         "tone": "support",
-        "label": "Emphasizes planning and coordination",
-        "detail": "She campaigned on building a long-term financial plan, supporting the new town manager, and improving communication across boards and committees."
+        "label": "Long-term planning and coordination",
+        "detail": "Sought to build a long-term financial plan, support the new town manager, and improve communication across boards and committees."
       },
       {
         "topicId": "school-facilities",
         "tone": "monitor",
-        "label": "Linked override funds to facilities needs",
-        "detail": "The override package she helped negotiate included capital funding for Town Hall restoration and school facilities, though her profile focused more on overall fiscal planning than specific school facility proposals."
+        "label": "Override included school facilities funding",
+        "detail": "The February 2026 override package she helped negotiate split capital funds in part toward school facilities, but the sources do not show a broader standalone facilities platform."
       }
     ],
     "evidence": [
@@ -493,7 +504,7 @@
         "id": "e1",
         "kind": "statement",
         "title": "Candidate profile outlines experience and priorities",
-        "summary": "Prior described 15 years on Town Meeting, six years on the Finance Committee, and three years on the Select Board with two as chair. She highlighted non-property-tax revenue, housing options, communication across boards, and a long-term financial plan.",
+        "summary": "Prior said she had served on Town Meeting, the Finance Committee, and the Select Board, and highlighted new revenue, housing options, communication, long-term financial planning, and renewable-energy cost savings as priorities.",
         "topicIds": [
           "town-revenue",
           "affordability",
@@ -503,9 +514,9 @@
       },
       {
         "id": "e2",
-        "kind": "forum",
-        "title": "State of the Town minutes list Prior as Select Board chair",
-        "summary": "Official minutes for the joint State of the Town meeting show Michelle Prior serving as Select Board chair in May 2025.",
+        "kind": "context",
+        "title": "Official minutes identify Prior as Select Board chair",
+        "summary": "State of the Town meeting minutes list Michelle Prior as Select Board chair and note committee work reviewing progress of working groups.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -513,45 +524,47 @@
       },
       {
         "id": "e3",
-        "kind": "statement",
-        "title": "Prior argued against a larger override cushion",
-        "summary": "In Select Board negotiations, Prior said the board should not ask voters for more money than identified needs required and objected to limiting flexibility by tying funds to the health care stabilization account.",
+        "kind": "vote",
+        "title": "Official 2026 election results",
+        "summary": "Official results show Michelle I. Prior defeated Shamus M. Brady 2,849 to 1,159 for the Select Board seat.",
         "topicIds": [
-          "override",
           "fiscal-governance"
         ],
-        "sourceId": "news-select-board-override-vote"
+        "sourceId": "official-election-results-2026"
       },
       {
         "id": "e4",
-        "kind": "statement",
-        "title": "After override defeat, Prior urged listening before another ballot question",
-        "summary": "Following the override loss, Prior said the town should use focus groups, listening sessions, and surveys to understand why the measure failed before moving ahead, while expecting a new ballot question within the year.",
-        "topicIds": [
-          "override",
-          "fiscal-governance"
-        ],
-        "sourceId": "news-override-fallout"
-      },
-      {
-        "id": "e5",
-        "kind": "statement",
+        "kind": "forum",
         "title": "Election-night coverage describes campaign emphasis",
-        "summary": "Election-night coverage said Prior emphasized deliberate process and consensus-building and noted her prior six years on the Finance Committee.",
+        "summary": "Election-night coverage said Prior emphasized deliberate process and consensus-building throughout her campaign and reported that she won reelection by a wide margin.",
         "topicIds": [
           "fiscal-governance"
         ],
         "sourceId": "news-election-night-2026"
       },
       {
-        "id": "e6",
-        "kind": "vote",
-        "title": "2026 election result",
-        "summary": "Official results show Michelle I. Prior defeating Shamus M. Brady 2,849 to 1,159 in the Select Board race.",
+        "id": "e5",
+        "kind": "forum",
+        "title": "Prior argued for a narrower override ask",
+        "summary": "During Select Board negotiations over the Proposition 2½ override, Prior said the board should not ask voters for more money than modeling showed was necessary and raised concerns about limiting flexibility through health-insurance stabilization funding.",
         "topicIds": [
+          "override",
+          "school-facilities",
           "fiscal-governance"
         ],
-        "sourceId": "official-election-results-2026"
+        "sourceId": "news-select-board-override-vote"
+      },
+      {
+        "id": "e6",
+        "kind": "statement",
+        "title": "After override defeat, Prior called for public feedback first",
+        "summary": "Following the ballot defeat, Prior said the town should learn why the override failed through focus groups, listening sessions, and surveys before moving ahead, while expecting another ballot question within the year.",
+        "topicIds": [
+          "override",
+          "town-revenue",
+          "fiscal-governance"
+        ],
+        "sourceId": "news-override-fallout"
       }
     ]
   },
@@ -565,94 +578,105 @@
     "officeLabel": "Planning Board",
     "raceLabel": "2026 Planning Board race",
     "status": "lost",
-    "background": "Incumbent Planning Board member, Winchester native, and Winchester High School graduate who works as a fractional/consulting CFO for life sciences companies. He said he has spent the past four years working on mixed-use development, MBTA 3A compliance zoning, North Main Street zoning, and design standards in Winchester.",
-    "summary": "Rossettos ran for reelection to the Planning Board in 2026 emphasizing experienced review of growth, mixed-use and inclusionary housing, and preserving Winchester’s historic and downtown character through design standards. He finished behind two candidates in a two-seat race.",
-    "locationNote": "Winchester native and longtime resident.",
+    "background": "Incumbent Planning Board member, Winchester High School graduate, and fractional CFO for life sciences companies. He said he has spent the past four years working on mixed-use development, affordable housing approvals, MBTA 3A compliance zoning, North Main Street zoning, and design standards.",
+    "summary": "Rossettos ran for reelection to the Planning Board in 2026 emphasizing experience with mixed-use and affordable housing, design standards, and preserving Winchester’s character while adding housing. He framed growth and preservation as compatible and highlighted the fiscal value of mixed-use development.",
+    "locationNote": "Grew up in Winchester and graduated from Winchester High School in 1984.",
     "priorRecordStrength": "direct",
     "priorRecordLabel": "Incumbent Planning Board member",
-    "priorRecordSummary": "Rossettos described four years of Planning Board work, including unanimous approval of the Waterfield affordable housing mixed-use development, work on MBTA 3A and North Main Street zoning, and design standards. At the 2026 forum he was identified as an incumbent and liaison to the Design Review Committee and Historical Commission.",
+    "priorRecordSummary": "Rossettos described four years of Planning Board work, including unanimous approval of the Waterfield affordable housing mixed-use development, work on MBTA 3A and North Main Street zoning, and design standards. A forum report also identified him as an incumbent and liaison to the Design Review Committee and Historical Commission.",
     "keyThemes": [
-      "Housing growth with historic preservation",
       "Mixed-use and inclusionary housing",
-      "Design standards and review",
-      "Zoning simplification",
-      "Commercial tax base alongside residential development"
+      "Design standards and historic character",
+      "Zoning reform and simplification",
+      "Balancing housing growth with tax-base concerns"
     ],
     "stanceCards": [
       {
+        "topicId": "affordability",
+        "tone": "support",
+        "label": "Supports affordable and inclusionary housing",
+        "detail": "He highlighted approval of the Waterfield affordable housing mixed-use project and said North Main Street zoning prioritizes inclusionary housing."
+      },
+      {
         "topicId": "school-facilities",
-        "tone": "gap",
-        "label": "No clear schools facilities platform in sources",
-        "detail": "The available sources do not show a specific position on school buildings or facilities."
+        "tone": "monitor",
+        "label": "Focus on design and neighborhood fit",
+        "detail": "He said experienced board members are needed so new buildings complement Winchester’s established character and stressed thoughtful design review."
       },
       {
         "topicId": "town-revenue",
         "tone": "support",
-        "label": "Supports growth that expands tax base",
-        "detail": "He said zoning should encourage mixed-use development to increase the town's tax base and argued the town needs a mix of development types."
-      },
-      {
-        "topicId": "affordability",
-        "tone": "support",
-        "label": "Backs inclusionary and affordable housing",
-        "detail": "He highlighted approval of affordable housing at Waterfield, support for inclusionary housing in zoning, and attention to 40B design."
+        "label": "Links development to tax base growth",
+        "detail": "He said mixed-use development can increase the town’s tax base and argued the town needs a combination of development types."
       },
       {
         "topicId": "fiscal-governance",
         "tone": "support",
-        "label": "Emphasizes financial discipline and balanced fiscal impact",
-        "detail": "He cited his CFO background and argued the town needs a combination of residential and other development, not only housing."
+        "label": "Emphasizes financial discipline",
+        "detail": "He cited his professional background as a fractional CFO and said he brings financial discipline and analytical rigor to Planning Board work."
       }
     ],
     "evidence": [
       {
         "id": "e1",
         "kind": "statement",
-        "title": "Candidate profile on Planning Board experience and priorities",
-        "summary": "Rossettos said that over the past four years he worked on mixed-use developments, voted with the board to approve the Waterfield affordable housing mixed-use project, worked on MBTA 3A and North Main Street zoning, and focused on design standards, inclusionary housing, density, and increasing the town's tax base.",
+        "title": "Candidate profile outlines Planning Board experience",
+        "summary": "Rossettos said he spent four years working on mixed-use development, including the unanimous Waterfield approval, MBTA 3A zoning, North Main Street zoning, and design standards prioritizing inclusionary housing and mixed use.",
         "topicIds": [
           "affordability",
-          "town-revenue",
-          "fiscal-governance"
+          "school-facilities",
+          "town-revenue"
         ],
         "sourceId": "news-nick-rossettos-profile"
       },
       {
         "id": "e2",
         "kind": "forum",
-        "title": "Forum remarks on growth and preservation",
-        "summary": "At the League of Women Voters forum, Rossettos said growth and preservation are not mutually exclusive and centered his campaign on preserving downtown character through experience, judgment, and sustained effort.",
+        "title": "Forum comments on growth and preservation",
+        "summary": "At a League of Women Voters forum, Rossettos said growth and preservation are not mutually exclusive and centered his campaign on preserving downtown character while adding housing.",
         "topicIds": [
-          "affordability"
+          "affordability",
+          "school-facilities"
         ],
         "sourceId": "news-planning-board-forum-2026"
       },
       {
         "id": "e3",
         "kind": "forum",
-        "title": "Forum discussion of housing production and 40B design",
-        "summary": "Rossettos cited Waterfield, a completed Cambridge Street 40B, the Washington and Swanton 40B proposal, and inclusionary units at 10 Converse Place, saying the town wanted to set an example of what beautiful 40B development can look like. He also suggested creative multi-unit housing ideas that resemble single-family historic homes.",
+        "title": "Forum comments on housing pipeline and zoning",
+        "summary": "He cited Waterfield, Cambridge Street, Washington and Swanton, and 10 Converse Place as examples tied to affordable or inclusionary housing efforts, and said some zoning regulations are complicated and confusing.",
         "topicIds": [
-          "affordability"
+          "affordability",
+          "fiscal-governance"
         ],
         "sourceId": "news-planning-board-forum-2026"
       },
       {
         "id": "e4",
         "kind": "forum",
-        "title": "Forum remarks on zoning complexity and fiscal impacts",
-        "summary": "Rossettos said some zoning regulations are complicated and confusing. Drawing on his CFO work, he said residential projects are profitable for developers and that the town needs a combination of development types.",
+        "title": "Forum comments on fiscal impacts",
+        "summary": "Rossettos said developers favor residential projects because they are profitable and argued the town needs a combination, drawing on his CFO background.",
         "topicIds": [
-          "fiscal-governance",
-          "town-revenue"
+          "town-revenue",
+          "fiscal-governance"
         ],
         "sourceId": "news-planning-board-forum-2026"
       },
       {
         "id": "e5",
+        "kind": "context",
+        "title": "Forum identifies incumbent role",
+        "summary": "The forum coverage described Rossettos as an incumbent and liaison to the Design Review Committee and Historical Commission.",
+        "topicIds": [
+          "school-facilities"
+        ],
+        "sourceId": "news-planning-board-forum-2026"
+      },
+      {
+        "id": "e6",
         "kind": "vote",
         "title": "2026 Planning Board election result",
-        "summary": "In the two-seat Planning Board race, Rossettos received 1,864 votes, behind Keri Layton (2,331) and Amy S. Beliveau (2,042), so he was not elected.",
+        "summary": "In the March 21, 2026 town election for two Planning Board seats, Rossettos received 1,864 votes, behind Keri Layton (2,331) and Amy S. Beliveau (2,042), and was not elected.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -670,90 +694,80 @@
     "officeLabel": "Select Board",
     "raceLabel": "2026 Select Board race",
     "status": "lost",
-    "background": "Public-school administrator and educator; current director of special education for Everett Public Schools. Served on the Winchester School Committee from 2021 to 2024 and previously on the Finance Committee during the early months of the COVID-19 pandemic. Also cites volunteer work with Winchester ABC, youth soccer, and the FAN Board.",
-    "summary": "Brady ran for Select Board in 2026 emphasizing school-budget experience, support for an operating override, affordability relief, and business recruitment for new revenue. He presented himself as a progressive voice focused on long-term investment and public engagement on budget choices. He lost the 2026 Select Board race.",
-    "locationNote": "Winchester resident since 2014; father of two children in Winchester public schools.",
+    "background": "Former Winchester School Committee member (2021–2024), former Finance Committee member during the early COVID-19 period, and a public-school administrator and educator. In 2026 he ran for Select Board while serving as director of special education for Everett Public Schools.",
+    "summary": "Brady ran for Select Board in 2026 emphasizing budget expertise, support for an operating override, affordability relief, and efforts to expand commercial revenue. He presented himself as a progressive candidate with prior town finance and school governance experience. He lost the election to incumbent Michelle Prior.",
+    "locationNote": "Winchester resident since 2014 and father of two children in public school.",
     "priorRecordStrength": "direct",
     "priorRecordLabel": "School Committee and Finance Committee record",
-    "priorRecordSummary": "Brady’s profile cites service on the Winchester School Committee from 2021-2024 and on the Finance Committee during the pandemic. Source coverage also documents his participation in 2024 School Committee budget and literacy discussions.",
+    "priorRecordSummary": "Brady cited service on the Winchester School Committee from 2021–2024 and on the Finance Committee during the early months of the COVID-19 pandemic. Meeting coverage shows him supporting added school budget flexibility for literacy-related work and asking operational questions about literacy resources.",
     "keyThemes": [
       "Support for an operating override",
       "Affordability relief for vulnerable residents",
-      "School-budget expertise",
-      "Public input on service cuts",
-      "Business recruitment for non-property-tax revenue"
+      "Commercial revenue growth",
+      "Progressive advocacy",
+      "School budget expertise"
     ],
     "stanceCards": [
       {
         "topicId": "override",
         "tone": "support",
         "label": "Supports operating override",
-        "detail": "Brady said Winchester needed to pass an operating override to maintain current service levels and said he would steward funds according to stated priorities."
+        "detail": "Brady said the town needs to pass an operating override to maintain current service levels and said he would support strong stewardship of those funds."
+      },
+      {
+        "topicId": "school-budget",
+        "tone": "support",
+        "label": "Emphasizes school budget knowledge",
+        "detail": "He argued his professional background and School Committee service gave him detailed knowledge of the school budget, which he described as the largest part of the town budget."
       },
       {
         "topicId": "affordability",
         "tone": "support",
         "label": "Calls for affordability measures",
-        "detail": "He proposed a committee on affordability and pointed to tools such as a residential tax exemption to reduce burdens on vulnerable residents."
+        "detail": "He said town taxes and fees are often regressive and proposed a committee on affordability, citing the residential tax exemption as one possible relief tool."
       },
       {
         "topicId": "town-revenue",
         "tone": "support",
-        "label": "Seeks new revenue sources",
-        "detail": "He said the town should recruit businesses and identify revenue-generating uses that fit Winchester, rather than rely only on residential property taxes."
-      },
-      {
-        "topicId": "school-budget",
-        "tone": "support",
-        "label": "Strong school-budget focus",
-        "detail": "He highlighted long experience with school and district budgets and argued that understanding school finance is important because it is the largest part of the town budget."
+        "label": "Seeks new business revenue",
+        "detail": "He said Winchester should more actively recruit businesses and identify what kinds of businesses would generate the most revenue without raising residential property taxes."
       },
       {
         "topicId": "fiscal-governance",
         "tone": "support",
-        "label": "Would use public process on cuts",
-        "detail": "If an override failed, he said he would ask department heads to identify essential services and potential cuts, then bring proposals to the public through feedback and forums."
+        "label": "Public input if cuts are needed",
+        "detail": "If an override failed, Brady said he would ask department heads to identify essential services and possible cuts, then bring proposals to the public through written feedback and forums."
       }
     ],
     "evidence": [
       {
-        "id": "result-2026-select-board",
-        "kind": "vote",
-        "title": "Lost 2026 Select Board race",
-        "summary": "Official results show Michelle Prior defeated Shamus M. Brady, 2,849 to 1,159, in the 2026 Select Board election.",
-        "topicIds": [
-          "fiscal-governance"
-        ],
-        "sourceId": "official-election-results-2026"
-      },
-      {
-        "id": "profile-budget-override",
+        "id": "e1",
         "kind": "statement",
-        "title": "Campaign profile: override, affordability, and revenue",
-        "summary": "In his candidate profile, Brady said the town needed an operating override, proposed an affordability committee, and called for recruiting businesses to expand revenue without raising residential property taxes.",
-        "topicIds": [
-          "override",
-          "affordability",
-          "town-revenue"
-        ],
-        "sourceId": "news-shamus-brady-profile"
-      },
-      {
-        "id": "profile-experience",
-        "kind": "statement",
-        "title": "Campaign profile: school and finance experience",
-        "summary": "Brady said he had worked on school budgets since 2008, served on the Winchester School Committee from 2021-2024, and served on the Finance Committee during the early COVID-19 period.",
+        "title": "Candidate profile outlines experience and priorities",
+        "summary": "Brady described his School Committee and Finance Committee service, support for an operating override, affordability proposals, and interest in expanding business revenue.",
         "topicIds": [
           "school-budget",
-          "fiscal-governance"
+          "override",
+          "affordability"
         ],
         "sourceId": "news-shamus-brady-profile"
       },
       {
-        "id": "budget-meeting-2024",
-        "kind": "forum",
-        "title": "Supported school budget additions in 2024",
-        "summary": "At a 2024 School Committee meeting, Brady supported budget proposals that would serve students directly and said the committee should preserve room for literacy-related funding work.",
+        "id": "e2",
+        "kind": "context",
+        "title": "Election-night coverage summarizes campaign message",
+        "summary": "Coverage said Brady pushed for urgency, visible dissent, and new revenue streams, and identified him as a former School Committee member and current special education director in Everett.",
+        "topicIds": [
+          "town-revenue",
+          "fiscal-governance"
+        ],
+        "sourceId": "news-election-night-2026"
+      },
+      {
+        "id": "e3",
+        "kind": "vote",
+        "title": "School Committee budget discussion in 2024",
+        "summary": "At a budget meeting, Brady voiced support for proposals serving students directly and said the committee needed funding flexibility for literacy curriculum work.",
         "topicIds": [
           "school-budget",
           "literacy"
@@ -761,25 +775,24 @@
         "sourceId": "news-school-committee-budget-2024"
       },
       {
-        "id": "literacy-meeting-2024",
+        "id": "e4",
         "kind": "forum",
-        "title": "Asked about literacy curriculum access",
-        "summary": "At a 2024 School Committee meeting, Brady asked whether the UFLI literacy resource was available to all K-2 teachers in all schools.",
+        "title": "School literacy discussion in 2024",
+        "summary": "During a literacy update, Brady asked whether the UFLI resource was available to all K-2 teachers across schools, showing engagement with literacy implementation details.",
         "topicIds": [
           "literacy"
         ],
         "sourceId": "news-school-literacy-motion-2024"
       },
       {
-        "id": "election-night-context",
-        "kind": "context",
-        "title": "Election-night characterization of campaign",
-        "summary": "Local election-night coverage described Brady as a former School Committee member and current director of special education who campaigned on urgency, visible dissent, and new revenue streams.",
+        "id": "e5",
+        "kind": "vote",
+        "title": "Official 2026 election results",
+        "summary": "Brady received 1,159 votes in the Select Board race, losing to Michelle Prior, who received 2,849 votes.",
         "topicIds": [
-          "town-revenue",
           "fiscal-governance"
         ],
-        "sourceId": "news-election-night-2026"
+        "sourceId": "official-election-results-2026"
       }
     ]
   },
@@ -793,49 +806,49 @@
     "officeLabel": "Select Board",
     "raceLabel": "2025 Select Board race",
     "status": "reelected",
-    "background": "Select Board incumbent seeking re-election in 2025. Brady said she has lived in Winchester for 11 years, holds a Master of Public Policy, previously worked in the education sector with federal, state and local agencies, especially in special education and K-12 data, and currently works with large organizations on culture and compliance.",
-    "summary": "Brady was re-elected to the Select Board in 2025. In her campaign materials and forum remarks, she emphasized the town’s structural deficit, the likely need for a carefully considered override, continuity in capital planning, support for schools, and continued work on affordable housing, walkability and economic development.",
-    "locationNote": "Lives in the Muraco neighborhood.",
+    "background": "Select Board incumbent seeking re-election in 2025; served on the board for three years, including two as vice chair. She has a Master of Public Policy and has worked in the education sector, including special education and K-12 data, and later in organizational culture and compliance work.",
+    "summary": "Brady ran for another Select Board term in 2025 emphasizing continuity in town governance, support for schools, capital planning, pedestrian and playground improvements, affordable housing, and economic development. In election results, she won one of two Select Board seats.",
+    "locationNote": "Lives in the Muraco neighborhood and said she had lived in Winchester for 11 years as of February 2025.",
     "priorRecordStrength": "direct",
-    "priorRecordLabel": "Select Board incumbent; vice-chair",
-    "priorRecordSummary": "Brady said she had served three years on the Select Board, including two as vice-chair, and previously served on the Personnel Board. Official May 2025 meeting minutes list her as Select Board vice-chair.",
+    "priorRecordLabel": "Incumbent Select Board member",
+    "priorRecordSummary": "Brady said she had served three years on the Select Board, including two as vice chair; was the board's representative to the Field Management Committee; and had previously served on the Personnel Board and as a Precinct 1 Town Meeting member. May 2025 meeting minutes list her as Select Board vice-chair.",
     "keyThemes": [
-      "Town budget pressure and structural deficit",
-      "Possible override alongside short-term use of free cash",
-      "Support for school investment",
-      "Capital planning and facilities",
-      "Affordable housing at large and small scales, including 160 Forest Street development discussion"
+      "incumbent continuity",
+      "school support amid structural deficit",
+      "capital planning and playground/library investments",
+      "affordable housing at large and small scales",
+      "commercial tax base and mixed-use development"
     ],
     "stanceCards": [
       {
         "topicId": "school-budget",
         "tone": "support",
-        "label": "Supports school investment",
-        "detail": "Said the school system is critical infrastructure and should be supported with high-quality teachers, curriculum, professional development and classroom supports; later spoke in support of the amended school budget."
+        "label": "Supports school funding",
+        "detail": "Said the school system is a critical part of town infrastructure and should be supported with high-quality teachers, curriculum, professional development and classroom supports."
       },
       {
         "topicId": "override",
-        "tone": "support",
-        "label": "Open to an override",
-        "detail": "Said free cash could help in the short run but an override might be necessary; in her profile she said the town was looking at free cash or an operating override and neither was ideal."
-      },
-      {
-        "topicId": "school-facilities",
-        "tone": "support",
-        "label": "Backs capital and safety projects",
-        "detail": "Highlighted support for playground safety work and argued for continuity around a capital plan, while noting Muraco school rebuilding or refurbishment as part of the town’s obligations discussed in the campaign forum."
+        "tone": "caution",
+        "label": "Open to override as an option",
+        "detail": "Said the town was considering free cash or an operating override and that neither was ideal; at the 2025 candidate forum she said free cash could help in the short run but an override might be necessary."
       },
       {
         "topicId": "affordability",
         "tone": "support",
-        "label": "Supports affordable housing growth",
-        "detail": "Called for advancing both large- and small-scale affordable housing and said neighborhood engagement would matter for 160 Forest Street."
+        "label": "Backs affordable housing growth",
+        "detail": "Supported advancing both large- and small-scale affordable housing, citing projects including Waterfield, Washington and Swanton, Cross Street townhouses and possible smaller-scale housing at 160 Forest Street."
       },
       {
         "topicId": "town-revenue",
         "tone": "support",
-        "label": "Wants economic development to expand tax base",
-        "detail": "Pointed to mixed-use opportunities near North Main Street, MBTA station reopening and Holton Street as ways to grow commercial activity."
+        "label": "Supports expanding commercial tax base",
+        "detail": "Pointed to MBTA station reopening, return of Laraway Road parking, North Main zoning changes and Holton Street as opportunities to expand business activity and mixed-use development."
+      },
+      {
+        "topicId": "school-facilities",
+        "tone": "support",
+        "label": "Supports capital planning and safety projects",
+        "detail": "Highlighted continuity around a capital plan and cited work on the library and playgrounds; also said she supported safety assessment and funding for new playgrounds at Leonard and Macdonald fields."
       }
     ],
     "evidence": [
@@ -843,11 +856,11 @@
         "id": "ev1",
         "kind": "statement",
         "title": "Candidate profile outlines background and priorities",
-        "summary": "Brady said she had lived in Winchester 11 years, held a Master of Public Policy, worked in education and compliance-related roles, was seeking re-election after three years on the Select Board, and supported school investment, affordable housing and economic development while weighing free cash and a possible override.",
+        "summary": "Brady described her education and work background, said she was seeking re-election after three years on the Select Board, and highlighted ARPA grants, traffic and pedestrian projects, playground investments, CPA work, school support, affordable housing and economic development priorities.",
         "topicIds": [
           "school-budget",
-          "override",
-          "affordability"
+          "affordability",
+          "town-revenue"
         ],
         "sourceId": "news-anthea-brady-profile-2025"
       },
@@ -855,7 +868,7 @@
         "id": "ev2",
         "kind": "forum",
         "title": "Select Board forum comments on budget and capital planning",
-        "summary": "At the League of Women Voters forum, Brady said the budget year was critical because costs had risen, free cash could help in the short run, an override might be necessary, and the town needed continuity around a capital plan.",
+        "summary": "At the March 2025 candidate forum, Brady said the budget was critical because costs had risen, said free cash could help in the short run while an override might be necessary, and called for continuity around a capital plan.",
         "topicIds": [
           "override",
           "school-budget",
@@ -865,43 +878,43 @@
       },
       {
         "id": "ev3",
-        "kind": "vote",
-        "title": "2025 election results",
-        "summary": "Official results show Brady won 1,649 votes in the Select Board race, finishing second behind Paras Bhayani and securing one of two seats.",
+        "kind": "statement",
+        "title": "Spoke in support of amended school budget",
+        "summary": "At Town Meeting coverage in May 2025, Brady was reported speaking in support of the amended school budget and saying the schools needed help with math, the McCall schedule needed to come into compliance with the rest of the district, and the town should invest now.",
         "topicIds": [
-          "fiscal-governance"
+          "school-budget"
         ],
-        "sourceId": "official-election-results-2025"
+        "sourceId": "news-town-meeting-school-budget-2025"
       },
       {
         "id": "ev4",
         "kind": "context",
-        "title": "Winchester News final election summary",
-        "summary": "Local election coverage reported that Brady and Paras Bhayani were the winners in the 2025 Select Board race.",
-        "topicIds": [
-          "fiscal-governance"
-        ],
-        "sourceId": "news-election-night-2025"
-      },
-      {
-        "id": "ev5",
-        "kind": "context",
-        "title": "May 2025 State of the Town minutes list Brady as vice-chair",
-        "summary": "Official joint meeting minutes list Anthea Brady as Select Board vice-chair following the 2025 election.",
+        "title": "Official minutes list Brady as vice-chair in May 2025",
+        "summary": "Joint School Committee and Select Board State of the Town minutes list Anthea Brady as Select Board vice-chair.",
         "topicIds": [
           "fiscal-governance"
         ],
         "sourceId": "official-sott-minutes-2025-05-30"
       },
       {
-        "id": "ev6",
-        "kind": "statement",
-        "title": "Spoke in support of amended school budget",
-        "summary": "During Town Meeting coverage, Brady was quoted saying the schools obviously needed help with math, the McCall schedule needed to come into compliance with the rest of the district, and it was time for the town to make an investment now.",
+        "id": "ev5",
+        "kind": "vote",
+        "title": "Official 2025 election results",
+        "summary": "Official election results show Brady received 1,649 votes in the Select Board race, finishing behind Paras Bhayani and ahead of Dorothy Simboli and Richard Welch Jr. in a two-seat contest.",
         "topicIds": [
-          "school-budget"
+          "fiscal-governance"
         ],
-        "sourceId": "news-town-meeting-school-budget-2025"
+        "sourceId": "official-election-results-2025"
+      },
+      {
+        "id": "ev6",
+        "kind": "context",
+        "title": "Local news confirms Brady was re-elected",
+        "summary": "Election-night coverage states that the winners in the Select Board race were Paras Bhayani and incumbent Anthea Brady.",
+        "topicIds": [
+          "fiscal-governance"
+        ],
+        "sourceId": "news-election-night-2025"
       }
     ]
   },
@@ -915,62 +928,61 @@
     "officeLabel": "School Committee",
     "raceLabel": "2025 School Committee race",
     "status": "lost",
-    "background": "Architect with two degrees from Rice University and an education policy fellowship from Northeastern University’s Institute for Educational Leadership. He said he oversees budgeting, design, and construction of capital projects for a nearby community and school district, with more than 25 years of K-12 education and healthcare project experience.",
-    "summary": "Incumbent School Committee member and longtime Town Meeting member who ran for another term in 2025 emphasizing school funding, sustainable town revenue, facilities planning, labor relations, and Lincoln and Muraco school capital needs. He lost in the two-seat race.",
-    "locationNote": "Has lived in Winchester for 26 years, according to his candidate profile.",
+    "background": "Architect with two Rice University architecture degrees and an education policy fellowship from Northeastern University’s Institute for Educational Leadership. He said he oversees budgeting, design, and construction of capital projects for a nearby community and school district, with more than 25 years of experience in K-12 education and healthcare project delivery.",
+    "summary": "Incumbent School Committee member who emphasized school finance, long-term town revenue planning, and facilities projects, including Muraco, Lincoln, and the district’s facilities master plan. He lost his 2025 reelection bid.",
+    "locationNote": "Has lived in Winchester for 26 years.",
     "priorRecordStrength": "direct",
     "priorRecordLabel": "Incumbent School Committee member",
-    "priorRecordSummary": "Served on the School Committee from 2010 to the time of his 2025 profile, and on multiple town finance and capital planning bodies including Town Meeting, the EFPBC, Capital Planning Committee, and Audit Advisory Committee.",
+    "priorRecordSummary": "Served on Town Meeting since 2008 and on the School Committee from 2010 to 2025 election season, according to his candidate profile. He also listed service on the EFPBC, Capital Planning Committee, Audit Advisory Committee, and school facilities working groups.",
     "keyThemes": [
-      "School budget needs",
-      "Sustainable town revenue",
-      "School facilities planning",
-      "Collective bargaining and district culture",
-      "Lincoln and Muraco capital projects"
+      "School budget funding needs",
+      "Sustainable town revenue models",
+      "School facilities planning and capital projects",
+      "Collective bargaining and district culture/communication"
     ],
     "stanceCards": [
       {
         "topicId": "school-budget",
         "tone": "support",
         "label": "Argued for full FY26 funding case",
-        "detail": "Listed making the case for Winchester Public Schools’ true FY26 funding needs as a top priority and pointed to use of the special education reserve fund to protect educational quality."
+        "detail": "Listed making the case for WPS’s 'true FY26 funding needs' as a top priority."
       },
       {
         "topicId": "town-revenue",
         "tone": "support",
-        "label": "Supports sustainable revenue models",
-        "detail": "Said he wants to support the State of the Town’s goals toward sustainable revenue models to meet long-term town and district needs."
+        "label": "Supports sustainable revenue planning",
+        "detail": "Said he wanted to support 'sustainable revenue models' to meet long-term town and district needs."
       },
       {
         "topicId": "school-facilities",
         "tone": "support",
-        "label": "Prioritized Muraco, Lincoln, and facilities planning",
-        "detail": "Highlighted submitting the New Muraco statement of interest, completing Phase II of the 10-year facilities master plan, and securing funding for Lincoln Elementary improvements."
+        "label": "Focused on major facilities projects",
+        "detail": "Highlighted the Muraco MSBA statement of interest, Phase II of the 10-Year Facilities Master Plan, and Lincoln Elementary improvements."
       },
       {
         "topicId": "fiscal-governance",
         "tone": "support",
-        "label": "Emphasized reserve-fund governance and cross-board coordination",
-        "detail": "Described the special education reserve fund as a budget management tool with Select Board concurrence as a check-and-balance, and stressed understanding the roles of town bodies for effective collaboration."
+        "label": "Pointed to reserve-fund budgeting tool",
+        "detail": "Cited the Special Education Reserve Fund as a budget-management measure that helped protect educational quality amid unanticipated costs."
       }
     ],
     "evidence": [
       {
-        "id": "record-roles",
+        "id": "e1",
         "kind": "statement",
-        "title": "Candidate profile lists town service and professional background",
-        "summary": "Nixon said he has served on Town Meeting since 2008 and the School Committee since 2010, along with the EFPBC, Capital Planning Committee, and Audit Advisory Committee. He also described his architecture and education policy background and capital-project budgeting experience.",
+        "title": "Candidate profile: professional background and local service",
+        "summary": "Nixon described his architecture and education-policy background and listed service on Town Meeting, the School Committee, and multiple capital and audit bodies.",
         "topicIds": [
-          "fiscal-governance",
-          "school-facilities"
+          "school-facilities",
+          "fiscal-governance"
         ],
         "sourceId": "news-christian-nixon-profile-2025"
       },
       {
-        "id": "priorities-2025",
+        "id": "e2",
         "kind": "statement",
-        "title": "Candidate profile outlines 2025 priorities",
-        "summary": "He identified top priorities including FY26 school funding needs, sustainable revenue models, a New Muraco MSBA statement of interest, Phase II of the facilities master plan, WEA culture and communication concerns, a new collective bargaining agreement, and Lincoln Elementary improvements.",
+        "title": "Candidate priorities centered on budget, revenue, and facilities",
+        "summary": "He named FY26 funding needs, sustainable revenue models, the Muraco statement of interest, the facilities master plan, Lincoln improvements, and labor/culture issues as top priorities.",
         "topicIds": [
           "school-budget",
           "town-revenue",
@@ -979,10 +991,10 @@
         "sourceId": "news-christian-nixon-profile-2025"
       },
       {
-        "id": "budget-reserve",
+        "id": "e3",
         "kind": "statement",
-        "title": "Explained use of special education reserve fund",
-        "summary": "In discussing budget management, Nixon said the School Committee approved use of more than $360,000 from the special education reserve fund to cover unbudgeted special education costs and protect the FY25 budget, noting the fund was established by Town Meeting in 2018 and requires Select Board concurrence for transfers.",
+        "title": "Budget answer highlighted special education reserve fund",
+        "summary": "He said the School Committee approved use of more than $360,000 from the Special Education Reserve Fund to cover unbudgeted special-education costs while protecting the rest of the FY25 budget.",
         "topicIds": [
           "school-budget",
           "fiscal-governance"
@@ -990,20 +1002,20 @@
         "sourceId": "news-christian-nixon-profile-2025"
       },
       {
-        "id": "official-result",
+        "id": "e4",
         "kind": "vote",
-        "title": "2025 official election results",
-        "summary": "Official results show Stefanie Mnayarji received 1,964 votes, Karen Bolognese 1,512, and Christian Nixon 975 in the School Committee race for two seats.",
+        "title": "Official 2025 School Committee results",
+        "summary": "In the two-seat School Committee race, Nixon received 975 votes, behind Stefanie Mnayarji and Karen Bolognese.",
         "topicIds": [
           "fiscal-governance"
         ],
         "sourceId": "official-election-results-2025"
       },
       {
-        "id": "news-result",
+        "id": "e5",
         "kind": "context",
-        "title": "Election-night summary identifies School Committee winners",
-        "summary": "Winchester News reported that Mnayarji and incumbent Karen Maruyama Bolognese won the two School Committee seats, while incumbent Christian Nixon received 975 votes.",
+        "title": "Election-night report confirmed outcome",
+        "summary": "Winchester News reported that Mnayarji and Bolognese won the two School Committee seats and that incumbent Christian Nixon received 975 votes.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -1021,49 +1033,49 @@
     "officeLabel": "Select Board",
     "raceLabel": "2025 Select Board race",
     "status": "lost",
-    "background": "Lawyer with commercial and residential real estate experience; 25-year Winchester resident and mother of three adult children. Served on the Winchester Zoning Board of Appeals, including as chair, and as a Town Meeting member.",
-    "summary": "Simboli ran for Select Board in 2025 emphasizing housing growth, business-friendly development, education quality, and tighter fiscal planning amid the town’s structural deficit. She said the town should consider a right-sized override as part of a longer-term plan and called for closer scrutiny of budget line items, including school spending.",
-    "locationNote": "Winchester resident for 25 years; Town Meeting member from Precinct 6 and Zoning Board of Appeals chair.",
+    "background": "Lawyer with a background in commercial and residential real estate; has lived in Winchester for 25 years. Simboli has served on the Winchester Zoning Board of Appeals since 2016, including as chair since March 2024, and has been a Town Meeting member since 2016.",
+    "summary": "Simboli ran for Select Board in 2025 emphasizing fiscal planning, housing and business development, and support for updated school curriculum and student services. She called for transparent budgeting, a deeper review of school spending, and said an override should be considered only if it is strategically planned and 'right sized.' She lost the two-seat race.",
+    "locationNote": "Winchester resident; Town Meeting member from Precinct 6 and Zoning Board of Appeals chair.",
     "priorRecordStrength": "adjacent",
-    "priorRecordLabel": "ZBA chair and Town Meeting member",
-    "priorRecordSummary": "Served on the Zoning Board of Appeals from 2016 onward, becoming full member in 2023 and chair in 2024; also served as a Town Meeting member since 2016. At 2025 Town Meeting, she publicly asked how the school literacy pilot would measure success.",
+    "priorRecordLabel": "Town Meeting member and ZBA chair",
+    "priorRecordSummary": "Her local record comes from appointed and Town Meeting roles rather than prior service on the Select Board. In Town Meeting reporting, she asked how the school literacy pilot would define and measure success after the pilot period.",
     "keyThemes": [
-      "Balanced housing growth and historic preservation",
-      "Business-friendly permitting and parking solutions",
-      "Education quality including literacy, math, special education, and staff support",
-      "Structural deficit response through detailed budget review and long-term planning",
-      "Transparent budgeting and sound fiscal policy"
+      "Fiscal stability and transparent budgeting",
+      "Housing growth with historic preservation",
+      "Business-friendly permitting and parking",
+      "Updated curriculum, literacy, math, and special education",
+      "Capital planning for school and town facilities"
     ],
     "stanceCards": [
       {
         "topicId": "school-budget",
         "tone": "caution",
-        "label": "Scrutinize school spending",
-        "detail": "Said the school budget warrants a deep dive into line items, including special education costs, to evaluate how resources can be used optimally while maintaining essential services."
+        "label": "Scrutiny of school spending",
+        "detail": "Said the school budget should get a 'deep dive' into line items, including special education costs, to evaluate how resources are used while maintaining essential services."
       },
       {
         "topicId": "literacy",
         "tone": "support",
         "label": "Supports literacy improvement with accountability",
-        "detail": "Listed literacy as a critical school issue and, at Town Meeting, asked how the district would determine success for the literacy pilot program."
+        "detail": "Listed literacy among key school issues and, in Town Meeting, asked how the district would measure success for the literacy pilot."
       },
       {
         "topicId": "school-facilities",
         "tone": "support",
-        "label": "Focus on capital planning for school facilities",
-        "detail": "Said the town faces deferred capital projects including the Lynch School and future Muraco project, requiring sound fiscal policies and prudent resource allocation."
+        "label": "Capital planning for school buildings",
+        "detail": "Pointed to deferred capital needs and current and future school projects including Lynch and Muraco, calling for sound fiscal policies and prudent allocation."
       },
       {
         "topicId": "town-revenue",
         "tone": "support",
         "label": "Expand commercial tax base",
-        "detail": "Called for a more business-friendly town, streamlined permitting, and parking solutions to support economic development and broaden revenue sources."
+        "detail": "Advocated a more business-friendly reputation, streamlined permitting, and attention to parking to support economic development, especially along North Main Street."
       },
       {
         "topicId": "override",
         "tone": "caution",
-        "label": "Open to a right-sized override",
-        "detail": "At the candidate forum, said the town should consider an override, but that it must be strategically planned and right sized."
+        "label": "Open to a 'right sized' override",
+        "detail": "At the Select Board forum, said the town should consider an override but only with strategic planning and the right scale."
       }
     ],
     "evidence": [
@@ -1071,19 +1083,19 @@
         "id": "e1",
         "kind": "statement",
         "title": "Candidate profile outlines background and priorities",
-        "summary": "Simboli described her legal and real-estate background, service on the Zoning Board of Appeals and Town Meeting, and priorities including housing, education, fiscal stability, and economic development.",
+        "summary": "Simboli described her legal and real-estate background, ZBA and Town Meeting service, and priorities including housing, education, fiscal stability, transparent budgeting, and commercial development.",
         "topicIds": [
           "affordability",
-          "literacy",
-          "school-budget"
+          "school-budget",
+          "literacy"
         ],
         "sourceId": "news-dorothy-simboli-profile-2025"
       },
       {
         "id": "e2",
         "kind": "statement",
-        "title": "Candidate profile on structural deficit and budget review",
-        "summary": "She said the town’s structural deficit requires creative evaluation of detailed budgets, noted rising health insurance and energy costs, suggested rebidding health insurance, and called for a deep dive into school budget line items including special education transportation.",
+        "title": "Candidate profile on deficit response",
+        "summary": "She said Winchester's structural deficit requires detailed budget review, possible savings or revenue increases, attention to bond rating, rebidding health insurance, and a deeper review of school budget line items including SPED transportation costs.",
         "topicIds": [
           "school-budget",
           "town-revenue",
@@ -1094,8 +1106,8 @@
       {
         "id": "e3",
         "kind": "statement",
-        "title": "Candidate profile on affordable housing and business development",
-        "summary": "She supported more collaborative affordable housing projects, cited 160 Forest Street as an opportunity for affordable housing, and proposed streamlining permitting and studying parking options to support businesses.",
+        "title": "Candidate profile on housing and business development",
+        "summary": "She supported more collaboratively planned affordable housing, highlighted 160 Forest Street as an opportunity, and proposed streamlining permits and exploring parking solutions to strengthen the commercial base.",
         "topicIds": [
           "affordability",
           "town-revenue"
@@ -1105,30 +1117,31 @@
       {
         "id": "e4",
         "kind": "forum",
-        "title": "Select Board forum on override and capital planning",
-        "summary": "At the League of Women Voters forum, Simboli said the town should consider a right-sized override with strategic planning and said she wanted to get involved earlier in the budget process. She also suggested using EDA and CPA resources for capital planning.",
+        "title": "Select Board forum comments on override and planning",
+        "summary": "At the League of Women Voters forum, Simboli said the town should consider an override but that it must be 'right sized' and strategically planned, and that she wanted involvement earlier in the budget process.",
         "topicIds": [
           "override",
-          "school-facilities",
-          "fiscal-governance"
+          "fiscal-governance",
+          "town-revenue"
         ],
         "sourceId": "news-select-board-forum-2025"
       },
       {
         "id": "e5",
         "kind": "forum",
-        "title": "Town Meeting question on literacy pilot accountability",
-        "summary": "During Town Meeting debate on literacy funding, Simboli asked how the schools would determine success after the pilot program was over.",
+        "title": "Town Meeting question on literacy pilot success measures",
+        "summary": "During Town Meeting discussion of literacy funding, Simboli asked how the School Department would determine success after the pilot program was over.",
         "topicIds": [
-          "literacy"
+          "literacy",
+          "school-budget"
         ],
         "sourceId": "news-town-meeting-school-budget-2025"
       },
       {
         "id": "e6",
-        "kind": "context",
-        "title": "2025 election result",
-        "summary": "In the four-candidate Select Board race for two seats, Simboli received 806 votes and did not win a seat.",
+        "kind": "vote",
+        "title": "2025 Select Board election result",
+        "summary": "Simboli received 806 votes in the four-candidate race for two Select Board seats and did not win.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -1146,48 +1159,54 @@
     "officeLabel": "Planning Board",
     "raceLabel": "2025 Planning Board race",
     "status": "elected",
-    "background": "Winchester resident since 1988; longtime Town Meeting member and member of the Town Meeting Members Association executive board. He has served on the Historical Commission since 2009, including the past eight years as chair, and has also served on town committees including the train station study committee and the Community Preservation Act Advisory Committee. He previously worked in management consulting and employee communications and said he had time as a recent retiree to devote to town service.",
-    "summary": "LeMenager ran a write-in campaign for Planning Board focused on encouraging mixed-use and commercial development while preserving Winchester’s architectural character. He emphasized better coordination among town boards and a more predictable development process. He won the open Planning Board seat in 2025.",
-    "locationNote": "Winchester resident; campaign centered on town development issues including North Main, the Center Business District, Converse Place, and the Waterfield Lot.",
+    "background": "Winchester resident since 1988. Served on the Historical Commission since 2009 and has been its chair for the past eight years. Also a Town Meeting member for 15 years and a member of the executive board of the Town Meeting Members Association. Ran a write-in campaign for Planning Board.",
+    "summary": "LeMenager presented himself as a candidate focused on encouraging mixed-use and commercial development while preserving Winchester’s architectural character. He emphasized better coordination among town boards and a more predictable approval process for development projects.",
+    "locationNote": "His profile discusses Winchester development issues including North Main, Converse Place, the Waterfield Lot, and the town center business district.",
     "priorRecordStrength": "adjacent",
-    "priorRecordLabel": "Historical Commission and town committee experience",
-    "priorRecordSummary": "LeMenager did not present prior Planning Board service in the provided sources, but cited long service on the Historical Commission, Town Meeting, and several town committees involving preservation and planning-related coordination.",
+    "priorRecordLabel": "Historical Commission chair and Town Meeting member",
+    "priorRecordSummary": "LeMenager’s prior town record is in adjacent local governance roles rather than on the Planning Board itself. He cited service on the Historical Commission, Town Meeting, and temporary committees including the train station study committee and the Community Preservation Act Advisory Committee.",
     "keyThemes": [
-      "Mixed-use development",
-      "Commercial growth",
-      "Inter-board coordination",
-      "Preserving architectural integrity",
-      "Streamlining approvals"
+      "Encourage more commercial and residential development",
+      "Support mixed-use growth in appropriate areas",
+      "Preserve architectural integrity and town character",
+      "Improve coordination across boards and commissions",
+      "Simplify project approval processes"
     ],
     "stanceCards": [
       {
-        "topicId": "fiscal-governance",
-        "tone": "support",
-        "label": "Better coordination across boards",
-        "detail": "He said boards and commissions should work together more closely and that the Planning Board should communicate more with the Select Board to anticipate opportunities rather than react later."
+        "topicId": "school-facilities",
+        "tone": "gap",
+        "label": "No school facilities position in sources",
+        "detail": "The provided sources do not describe positions on school facilities."
       },
       {
         "topicId": "town-revenue",
         "tone": "support",
-        "label": "Encourage commercial development",
-        "detail": "He said it is critical to encourage more commercial and residential development, with particular emphasis on adding more commercial space in areas like North Main."
+        "label": "Supports more commercial development",
+        "detail": "He argued that Winchester should encourage more commercial and residential development and specifically more commercial space in areas such as North Main."
+      },
+      {
+        "topicId": "fiscal-governance",
+        "tone": "support",
+        "label": "Wants better inter-board coordination",
+        "detail": "He said boards and commissions should communicate more and work together to encourage rational growth, with the Planning Board working more closely with the Select Board."
       },
       {
         "topicId": "affordability",
         "tone": "monitor",
-        "label": "Support for mixed-use housing growth",
-        "detail": "He supported greater mixed-use development, including multi-story buildings with residences and retail, but framed it around right-size growth that fits Winchester’s built environment."
+        "label": "Backs additional housing development",
+        "detail": "He supported greater residential and mixed-use development, including in the mixed-use district context, but the sources do not provide a detailed affordability platform."
       }
     ],
     "evidence": [
       {
         "id": "e1",
         "kind": "statement",
-        "title": "Write-in campaign focused on mixed-use development and coordination",
-        "summary": "LeMenager said he was motivated to run to encourage more communication between boards, support right-size mixed-use development, and improve the approval process without sacrificing town values or architectural integrity.",
+        "title": "Candidate profile outlines development and coordination goals",
+        "summary": "LeMenager said Winchester should encourage more commercial and residential development, simplify the approval track without sacrificing core values, and improve communication among boards to support right-size mixed-use development.",
         "topicIds": [
-          "fiscal-governance",
           "town-revenue",
+          "fiscal-governance",
           "affordability"
         ],
         "sourceId": "news-jack-lemenager-profile-2025"
@@ -1195,8 +1214,8 @@
       {
         "id": "e2",
         "kind": "context",
-        "title": "Background in Historical Commission and Town Meeting",
-        "summary": "The profile says he has served on the Historical Commission since 2009, the past eight years as chair, has been a Town Meeting member for 15 years, and has served on several ad hoc town committees.",
+        "title": "Background in local government and preservation roles",
+        "summary": "The profile says he has served on the Historical Commission since 2009, chaired it for eight years, served as a Town Meeting member for 15 years, and participated in committees including the train station study committee and CPA Advisory Committee.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -1205,8 +1224,8 @@
       {
         "id": "e3",
         "kind": "vote",
-        "title": "Official 2025 Planning Board result",
-        "summary": "Official results show Jack LeMenager received 739 write-in votes in the Planning Board race, ahead of Matthew Zarracina with 146 and other write-ins with 129.",
+        "title": "Official 2025 election results for Planning Board",
+        "summary": "Official results list Jack LeMenager with 739 write-in votes for the one Planning Board seat, ahead of Matthew Zarracina with 146.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -1215,7 +1234,7 @@
       {
         "id": "e4",
         "kind": "context",
-        "title": "Election-night report confirms win",
+        "title": "Election-night report confirms Planning Board win",
         "summary": "Winchester News reported that LeMenager won the open Planning Board seat being vacated by Diab Jerius with 739 write-in votes.",
         "topicIds": [
           "fiscal-governance"
@@ -1234,113 +1253,114 @@
     "officeLabel": "School Committee",
     "raceLabel": "2025 School Committee race",
     "status": "reelected",
-    "background": "Veterinarian and former finance executive with an MBA; has lived in Winchester 14 years. She has served on the School Committee since 2019 and was chair in 2021-22 and 2024-25, alongside other town roles including Town Meeting and facilities-related working groups.",
-    "summary": "Incumbent School Committee member reelected in 2025. She emphasizes long-term budgeting, fiscal sustainability, broad student opportunity, and a process-driven approach to curriculum decisions, including elementary literacy review.",
-    "locationNote": "Lives in Winchester; reported 14 years in town.",
+    "background": "Incumbent School Committee member and chair. Professional background includes veterinary medicine, finance, translation/interpretation, and English teaching. Education includes a DVM from Tufts, an MBA from the University of Michigan, and a BA in English from Vanderbilt.",
+    "summary": "Karen Maruyama Bolognese is an incumbent School Committee chair seeking another term in 2025. In campaign materials and at a candidate forum, she emphasized long-term budgeting, district sustainability, support for the superintendent’s literacy review process, and a cautious approach to stricter device bans in schools.",
+    "locationNote": "Has lived in Winchester for 14 years.",
     "priorRecordStrength": "direct",
-    "priorRecordLabel": "Incumbent School Committee chair and member",
-    "priorRecordSummary": "School Committee member since 2019, chair in 2021-22 and 2024-25; also served on Town Meeting and town working groups tied to facilities and housing planning.",
+    "priorRecordLabel": "School Committee chair and member since 2019",
+    "priorRecordSummary": "Served as School Committee chair in 2021-22 and 2024-25, and as a member since 2019. Also serves as a Town Meeting member and has participated in town working groups related to facilities and housing.",
     "keyThemes": [
       "Long-term budget planning",
       "Fiscal sustainability",
-      "Support for district resources and staffing",
-      "Broad opportunities across academics, arts, sports, and special education",
-      "Process-driven curriculum review, especially literacy"
+      "Support for district-wide literacy review process",
+      "Broad student opportunity across academics, arts, sports, and special education",
+      "Community engagement and relationship-building"
     ],
     "stanceCards": [
       {
         "topicId": "school-budget",
         "tone": "support",
         "label": "Long-term budget planning",
-        "detail": "Advocates a long-term, planful approach to budgeting through the Winchester 2030 strategic plan and budget process, with priorities across staffing, programming, professional development, and facilities."
+        "detail": "Advocated a long-term, planful approach to budgeting and tied it to the district’s five-year strategic planning work."
+      },
+      {
+        "topicId": "fiscal-governance",
+        "tone": "support",
+        "label": "Strategic planning and prioritization",
+        "detail": "Said she has worked with district leaders, the School Committee, and community stakeholders to prioritize long-term needs in staffing, programming, professional development, and facilities."
       },
       {
         "topicId": "affordability",
         "tone": "caution",
-        "label": "Balances school needs with tax burden",
-        "detail": "Says fiscal responsibility matters and explicitly recognizes the tax burden on residents while aiming to keep schools financially sustainable over the long term."
+        "label": "Acknowledges resident tax burden",
+        "detail": "Said she takes fiscal responsibility seriously and recognizes the tax burden on residents while aiming to keep schools financially sustainable."
       },
       {
         "topicId": "literacy",
         "tone": "support",
         "label": "Supports superintendent’s literacy process",
-        "detail": "Backs the superintendent’s approach in which educators and literacy specialists review, pilot, and recommend elementary literacy materials and supports before School Committee action."
+        "detail": "Backed the superintendent’s approach of having educators and specialists review, pilot, and recommend literacy materials and professional development before School Committee action."
       },
       {
         "topicId": "technology",
         "tone": "caution",
-        "label": "Prefers controlled use over a full ban",
-        "detail": "At the candidate forum, said phones are generally expected to stay in backpacks and argued education about wise usage and partnership with families are important; she said a total ban on devices would be difficult."
-      },
-      {
-        "topicId": "school-facilities",
-        "tone": "support",
-        "label": "Links facilities to long-term planning",
-        "detail": "Says she has worked to prioritize long-term district needs including school facilities, and has also served on the Facilities Master Plan Phase I Enrollment Update working group."
+        "label": "Cautious on stricter device bans",
+        "detail": "At the forum, said phones can be distracting but argued education about wise usage and family partnership are important, and said a total ban on electronic devices would be difficult."
       }
     ],
     "evidence": [
       {
         "id": "e1",
         "kind": "statement",
-        "title": "Candidate profile on background and priorities",
-        "summary": "Describes her professional background, years in Winchester, School Committee service since 2019, other town roles, and priorities including broad student opportunity and fiscally sustainable budgeting.",
+        "title": "Candidate profile outlines background and current offices",
+        "summary": "Profile says Bolognese has lived in Winchester for 14 years, has a professional background in veterinary medicine, finance, translation, and teaching, and has served on the School Committee since 2019, including as chair.",
         "topicIds": [
-          "school-budget",
-          "affordability",
-          "school-facilities"
+          "fiscal-governance"
         ],
         "sourceId": "news-karen-maruyama-bolognese-profile-2025"
       },
       {
         "id": "e2",
         "kind": "statement",
-        "title": "Supports process-driven literacy review",
-        "summary": "Says she fully supports the superintendent’s literacy approach centered on educators and literacy specialists reviewing materials, assessments, pilots, and recommendations before committee action.",
+        "title": "Campaign priorities stress student opportunity and fiscal sustainability",
+        "summary": "She said she wants to meet diverse student needs, provide opportunities across academics, sports, special education, and arts, and keep the school budget financially sustainable over the long term.",
+        "topicIds": [
+          "school-budget",
+          "affordability"
+        ],
+        "sourceId": "news-karen-maruyama-bolognese-profile-2025"
+      },
+      {
+        "id": "e3",
+        "kind": "statement",
+        "title": "Supports long-term budget planning through Winchester 2030",
+        "summary": "She said she has advocated for a long-term, planful approach to budgeting and wants to collaborate on the five-year strategic plan and budget.",
+        "topicIds": [
+          "school-budget",
+          "fiscal-governance"
+        ],
+        "sourceId": "news-karen-maruyama-bolognese-profile-2025"
+      },
+      {
+        "id": "e4",
+        "kind": "statement",
+        "title": "Supports district-led literacy review and pilot process",
+        "summary": "She said she fully supports the superintendent’s literacy approach, with educators and specialists reviewing options, piloting them in 2025-26, and later bringing recommendations to the School Committee.",
         "topicIds": [
           "literacy"
         ],
         "sourceId": "news-karen-maruyama-bolognese-profile-2025"
       },
       {
-        "id": "e3",
+        "id": "e5",
         "kind": "forum",
-        "title": "Forum comments on technology policy",
-        "summary": "At the League of Women Voters forum, she said phones generally must stay in backpacks, questioned enforceability of a total ban, and emphasized education about wise usage and partnership with families.",
+        "title": "Forum comments on school device policy",
+        "summary": "At the League of Women Voters forum, she said phones are a distraction but argued a total ban on electronic devices would be difficult and emphasized wise usage and family partnership.",
         "topicIds": [
-          "technology"
+          "technology",
+          "mental-health"
         ],
         "sourceId": "news-school-committee-forum-2025"
       },
       {
-        "id": "e4",
-        "kind": "vote",
-        "title": "2025 election result",
-        "summary": "Official results show Karen Bolognese won one of two School Committee seats with 1,512 votes.",
-        "topicIds": [
-          "fiscal-governance"
-        ],
-        "sourceId": "official-election-results-2025"
-      },
-      {
-        "id": "e5",
+        "id": "e6",
         "kind": "context",
-        "title": "Post-election committee chair listing",
-        "summary": "May 30, 2025 State of the Town minutes list Karen Maruyama Bolognese as School Committee chair.",
+        "title": "State of the Town minutes list her as School Committee chair in May 2025",
+        "summary": "Official minutes from May 30, 2025 list Karen Maruyama Bolognese as School Committee chair.",
         "topicIds": [
           "fiscal-governance"
         ],
         "sourceId": "official-sott-minutes-2025-05-30"
-      },
-      {
-        "id": "e6",
-        "kind": "context",
-        "title": "Local news summary of election winners",
-        "summary": "Winchester News reported that Stefanie Mnayarji and incumbent Karen Maruyama Bolognese won the two School Committee seats, with Bolognese receiving 1,512 votes.",
-        "topicIds": [
-          "fiscal-governance"
-        ],
-        "sourceId": "news-election-night-2025"
       }
     ]
   },
@@ -1354,57 +1374,57 @@
     "officeLabel": "Select Board",
     "raceLabel": "2025 Select Board race",
     "status": "elected",
-    "background": "Corporate finance and business strategy professional with prior public-sector budget experience, including leading a $1.7 billion operating and capital budget for Chicago's transit authority. Winchester resident for five years with two young daughters.",
-    "summary": "Bhayani ran on fiscal stewardship, combining efficiency measures with likely new revenue, while also emphasizing capital planning, infill housing, economic development, and climate/sustainability. He highlighted education advocacy through early literacy work and won one of two Select Board seats in 2025.",
-    "locationNote": "Lives in Winchester and said he and his family moved to town for the schools and community.",
+    "background": "Corporate finance and business strategy professional with prior public-sector budget experience, including leading a $1.7 billion operating and capital budget for the Chicago Transit Authority. Winchester resident for five years with involvement in local education advocacy through the Winchester Literacy Initiative for Change.",
+    "summary": "Bhayani ran for Select Board emphasizing fiscal stewardship, a balanced approach to town and school funding, capital planning, housing, economic development, and sustainability. He argued Winchester would likely need additional revenue alongside efficiencies and new revenue measures, and he highlighted experience in municipal budgeting and finance.",
+    "locationNote": "Has lived in Winchester for five years and said his family was drawn by the schools and community.",
     "priorRecordStrength": "adjacent",
-    "priorRecordLabel": "Education advocacy and outside public finance experience",
-    "priorRecordSummary": "He did not cite prior elected or appointed Winchester town office, but described himself as a founding member of the Winchester Literacy Initiative for Change and cited major public-sector budget experience outside Winchester.",
+    "priorRecordLabel": "Education advocacy and budget background",
+    "priorRecordSummary": "No prior elected or appointed Winchester town office identified in the source packet. He cited local involvement as a founding member of the Winchester Literacy Initiative for Change and prior public-sector budget leadership outside Winchester.",
     "keyThemes": [
-      "Fiscal stewardship and balanced town/school funding",
-      "Capital planning and backlog reduction",
-      "Infill and affordable housing",
-      "Economic development and small-business support",
-      "Climate and sustainability"
+      "Balanced town and school funding",
+      "Capital planning",
+      "Additional revenue likely needed",
+      "Thoughtful infill housing",
+      "Economic development and small business support"
     ],
     "stanceCards": [
       {
         "topicId": "school-budget",
         "tone": "support",
-        "label": "Balanced funding with added revenue likely",
-        "detail": "He said Winchester needs a combination of efficiencies and new revenue to balance the budget while protecting services, and said additional revenue would likely be needed for town and school operating and capital needs."
+        "label": "Balanced funding for town and schools",
+        "detail": "Said the Select Board should manage town and school funding in a responsible, balanced manner and protect services while addressing the structural deficit."
       },
       {
-        "topicId": "literacy",
+        "topicId": "override",
         "tone": "support",
-        "label": "Early literacy involvement",
-        "detail": "He cited his role as a founding member of the Winchester Literacy Initiative for Change, a parent-led group focused on strengthening early literacy curriculum in Winchester Public Schools."
+        "label": "Override likely necessary",
+        "detail": "Said the 2019 override had already lasted longer than intended and that additional revenue would likely be needed for operating and capital needs."
       },
       {
         "topicId": "technology",
         "tone": "support",
         "label": "Use technology for efficiency",
-        "detail": "He proposed off-the-shelf technology to automate town processes and also supported digitizing permits, applications, and approvals to help businesses."
+        "detail": "Proposed off-the-shelf technology to automate processes and digitize permits, approvals, and applications."
       },
       {
         "topicId": "school-facilities",
         "tone": "support",
         "label": "Capital planning focus",
-        "detail": "He called for tackling a backlog of capital projects and, at the forum, referred to a five-year plan and possible override funding dedicated to capital projects."
+        "detail": "Called for tackling a backlog of capital projects and, at the forum, referred to a five-year plan and possible override funding dedicated to capital projects."
       },
       {
-        "topicId": "override",
+        "topicId": "affordability",
         "tone": "support",
-        "label": "Open to override revenue",
-        "detail": "He said the 2019 override had already lasted longer than intended and that additional revenue would likely be needed; at the candidate forum he said taxpayers would likely need to be asked for additional money."
+        "label": "Supports infill and affordable housing",
+        "detail": "Backed thoughtful infill development, completion of planned projects, and redevelopment of already developed land rather than wooded open space."
       }
     ],
     "evidence": [
       {
-        "id": "ev1",
+        "id": "e1",
         "kind": "statement",
         "title": "Candidate profile outlines background and priorities",
-        "summary": "Bhayani described extensive private- and public-sector financial experience, including managing Chicago transit authority budgets, and listed key campaign priorities including balanced town and school funding, capital projects, housing, economic development, and sustainability.",
+        "summary": "Bhayani described finance and municipal budget experience, local literacy advocacy, and priorities including balanced funding, capital projects, housing, economic development, and sustainability.",
         "topicIds": [
           "school-budget",
           "school-facilities",
@@ -1413,58 +1433,62 @@
         "sourceId": "news-paras-bhayani-profile-2025"
       },
       {
-        "id": "ev2",
+        "id": "e2",
         "kind": "statement",
-        "title": "Candidate profile backs efficiency measures and likely new revenue",
-        "summary": "He said Winchester would need both efficiencies and new revenue, suggested technology and purchasing changes to save money, and said additional revenue would likely be needed because inflation had outpaced Proposition 2½ limits.",
+        "title": "Candidate profile says new revenue likely needed",
+        "summary": "He said Winchester would need efficiencies and new revenue, and likely additional revenue beyond the 2019 override to meet town and school operating and capital needs while protecting fiscal health.",
         "topicIds": [
           "school-budget",
-          "technology",
-          "town-revenue"
+          "town-revenue",
+          "override"
         ],
         "sourceId": "news-paras-bhayani-profile-2025"
       },
       {
-        "id": "ev3",
+        "id": "e3",
         "kind": "statement",
-        "title": "Candidate profile highlights literacy advocacy",
-        "summary": "He said he was a founding member of the Winchester Literacy Initiative for Change, focused on strengthening early literacy curriculum in Winchester Public Schools.",
+        "title": "Candidate profile backs technology and business process improvements",
+        "summary": "He proposed automation, strategic purchasing, asset utilization, and digitized approvals and permits to improve efficiency and support small business growth.",
         "topicIds": [
-          "literacy"
+          "technology",
+          "town-revenue",
+          "fiscal-governance"
         ],
         "sourceId": "news-paras-bhayani-profile-2025"
       },
       {
-        "id": "ev4",
+        "id": "e4",
         "kind": "forum",
-        "title": "Select Board forum comments on override and capital planning",
-        "summary": "At the March 5 candidate forum, Bhayani said Winchester needed a comprehensive long-term plan, that efficiencies alone would not be enough, and that taxpayers would likely need to provide additional money. He also called for a five-year capital plan and referenced an override dedicated to capital projects.",
+        "title": "Forum remarks on budget shortfall and override",
+        "summary": "At the March 5 candidate forum, Bhayani said Winchester faced a challenging fiscal reality, needed a comprehensive plan to balance services and costs, and after efficiencies would need to ask taxpayers for additional money.",
         "topicIds": [
           "school-budget",
           "override",
-          "school-facilities"
+          "fiscal-governance"
         ],
         "sourceId": "news-select-board-forum-2025"
       },
       {
-        "id": "ev5",
+        "id": "e5",
+        "kind": "forum",
+        "title": "Forum remarks on capital planning",
+        "summary": "At the same forum, he called for a five-year plan and referred to an override dedicated for capital projects, while discussing the need to rebuild or refurbish Muraco Elementary School.",
+        "topicIds": [
+          "school-facilities",
+          "override",
+          "school-budget"
+        ],
+        "sourceId": "news-select-board-forum-2025"
+      },
+      {
+        "id": "e6",
         "kind": "vote",
-        "title": "Official 2025 election results",
-        "summary": "Official results show Bhayani received 1,945 votes in the Select Board race, the highest total among four candidates for two seats.",
+        "title": "Official election results",
+        "summary": "Official results show Bhayani received 1,945 votes in the Select Board race, the highest total in the two-seat contest.",
         "topicIds": [
           "fiscal-governance"
         ],
         "sourceId": "official-election-results-2025"
-      },
-      {
-        "id": "ev6",
-        "kind": "context",
-        "title": "Election-night coverage confirms win",
-        "summary": "Local election coverage reported that Bhayani and incumbent Anthea Brady won the two Select Board seats, with Bhayani receiving 1,945 votes.",
-        "topicIds": [
-          "fiscal-governance"
-        ],
-        "sourceId": "news-election-night-2025"
       }
     ]
   },
@@ -1478,50 +1502,57 @@
     "officeLabel": "Select Board",
     "raceLabel": "2025 Select Board race",
     "status": "lost",
-    "background": "Real estate developer and home builder with 35 years of experience, including permitting, developing, and building multiple 40B projects in Massachusetts. He said he has served in the past decade as president of Mesiti Development Corporation, developing, planning, and building hundreds of senior living units.",
-    "summary": "Welch presented himself as a development-oriented candidate focused on affordable housing, senior housing, and commercial growth. He said Winchester should address its structural deficit without cutting school or sports programs. In the 2025 Select Board race, he did not win one of the two seats.",
-    "locationNote": "Welch said he has lived in Winchester for 35 years and that his three children graduated from Winchester Public Schools.",
+    "background": "Real estate developer and home builder with 35 years of experience, including permitting and development work on multiple 40B projects statewide. He said he has spent the past decade as president of Mesiti Development Corporation, developing senior living housing.",
+    "summary": "Welch ran for Select Board in 2025 emphasizing housing development experience, affordable housing, senior housing, and protecting school and sports programs while the town addresses its budget deficit.",
+    "locationNote": "He said he has lived in Winchester for 35 years and that his three children graduated from Winchester Public Schools.",
     "priorRecordStrength": "adjacent",
     "priorRecordLabel": "Housing and development experience",
-    "priorRecordSummary": "Welch cited decades of private-sector experience in real estate development, including affordable housing and senior living projects, and said he has worked closely with town officials and boards on community development.",
+    "priorRecordSummary": "Welch presented professional experience in real estate development, 40B permitting, and senior living projects as preparation for Select Board service, but the sources do not show prior elected service in Winchester.",
     "keyThemes": [
-      "Affordable housing and senior housing",
-      "Protecting school and sports programs while addressing the deficit",
-      "Expanding the commercial tax base through mixed-use development",
-      "Using development experience to assist with town real estate matters"
+      "Affordable housing",
+      "Senior housing",
+      "Downtown mixed-use development",
+      "Commercial tax base growth",
+      "Protecting school and sports spending amid deficits"
     ],
     "stanceCards": [
       {
         "topicId": "affordability",
         "tone": "support",
         "label": "Supports affordable and senior housing",
-        "detail": "Welch said his affordable housing development experience could help Winchester meet housing needs and that he wants 160 Forest Street to create opportunities for local seniors struggling to remain in town."
+        "detail": "He said his development background would help Winchester address affordable housing needs and support seniors who want to remain in town, including at 160 Forest Street."
       },
       {
         "topicId": "town-revenue",
         "tone": "support",
-        "label": "Favors tax-base growth through development",
-        "detail": "He called for ambitious downtown plans with lower-level commercial space and upper-floor retail/residential uses, and said 55-plus projects can bring in tax revenue."
+        "label": "Wants to expand the tax base through development",
+        "detail": "He called for ambitious downtown plans with commercial space below and residential above, and said 55-plus projects can bring in tax dollars."
       },
       {
         "topicId": "school-budget",
         "tone": "support",
-        "label": "Would avoid cuts to schools",
-        "detail": "Welch said the town should look for ways to address the deficit without touching school or sports programs."
+        "label": "Would avoid cuts to school and sports programs",
+        "detail": "He said the town should find ways to address the deficit without touching school or sports programs."
       },
       {
-        "topicId": "fiscal-governance",
-        "tone": "caution",
-        "label": "Concerned about the structural deficit",
-        "detail": "He described the increased budget deficit as concerning and said the town needs to closely examine ways to make up the shortfall."
+        "topicId": "override",
+        "tone": "gap",
+        "label": "No explicit override position in sources",
+        "detail": "He discussed the structural deficit but did not state a position on an override in the provided sources."
+      },
+      {
+        "topicId": "school-facilities",
+        "tone": "gap",
+        "label": "No school facilities position stated",
+        "detail": "The provided sources do not describe a position on school buildings or facilities."
       }
     ],
     "evidence": [
       {
         "id": "e1",
         "kind": "statement",
-        "title": "Welch describes development background",
-        "summary": "He said he is a real estate developer and home builder with 35 years of experience, including multiple 40B projects and senior living development as president of Mesiti Development Corporation.",
+        "title": "Candidate profile: professional background",
+        "summary": "Welch said he is a real estate developer and home builder with 35 years of experience, including multiple 40B projects and senior living development.",
         "topicIds": [
           "affordability"
         ],
@@ -1530,8 +1561,19 @@
       {
         "id": "e2",
         "kind": "statement",
-        "title": "Welch on budget deficit and schools",
-        "summary": "He said the town should find ways to make up for the deficit without touching school or sports programs and said school spending appears well used.",
+        "title": "Candidate profile: reason for running",
+        "summary": "He said he wants to use his development experience to help with town real estate deals, affordable housing needs, and housing for local seniors.",
+        "topicIds": [
+          "affordability",
+          "town-revenue"
+        ],
+        "sourceId": "news-rick-welch-profile-2025"
+      },
+      {
+        "id": "e3",
+        "kind": "statement",
+        "title": "Candidate profile: structural deficit response",
+        "summary": "Welch said the growing deficit is concerning and that the town should look for ways to make up for it without touching school or sports programs.",
         "topicIds": [
           "school-budget",
           "fiscal-governance"
@@ -1539,20 +1581,20 @@
         "sourceId": "news-rick-welch-profile-2025"
       },
       {
-        "id": "e3",
+        "id": "e4",
         "kind": "statement",
-        "title": "Welch on 160 Forest Street and senior housing",
-        "summary": "He said his affordable housing experience would help navigate Winchester's housing needs and that he would like 160 Forest Street to offer opportunities to Winchester seniors.",
+        "title": "Candidate profile: 160 Forest Street vision",
+        "summary": "He said his affordable housing experience could help navigate Winchester's housing needs and that he would like 160 Forest Street to offer opportunities for Winchester seniors struggling to stay in town.",
         "topicIds": [
           "affordability"
         ],
         "sourceId": "news-rick-welch-profile-2025"
       },
       {
-        "id": "e4",
+        "id": "e5",
         "kind": "statement",
-        "title": "Welch on downtown growth and tax base",
-        "summary": "He proposed mixed-use downtown development, reduced parking requirements for some units, and incentives for developers to build 55-plus projects to grow the tax base.",
+        "title": "Candidate profile: commercial tax base ideas",
+        "summary": "Welch supported mixed-use downtown development, less parking in some projects, and incentives for 55-plus projects to grow the tax base.",
         "topicIds": [
           "town-revenue",
           "affordability"
@@ -1560,10 +1602,10 @@
         "sourceId": "news-rick-welch-profile-2025"
       },
       {
-        "id": "e5",
+        "id": "e6",
         "kind": "vote",
         "title": "2025 Select Board election result",
-        "summary": "In the race for two Select Board seats, Richard Welch, Jr. received 674 votes, trailing Paras Bhayani (1945), Anthea Brady (1649), and Dorothy Simboli (806), and did not win a seat.",
+        "summary": "In the official 2025 town election results for Select Board, Welch received 674 votes, trailing Paras Bhayani and Anthea Brady, the top two vote-getters for the two seats.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -1581,57 +1623,57 @@
     "officeLabel": "School Committee",
     "raceLabel": "2025 School Committee race",
     "status": "elected",
-    "background": "Economist with education at the London School of Economics and Northeastern University; worked in FinTech consulting for large financial institutions and later founded Luxxie Boston. Has lived in Winchester for eight years.",
-    "summary": "Elected to the School Committee in 2025 after campaigning on school funding, literacy reform, broader curriculum review, intentional technology use, and school culture. Previously served as a Precinct 5 Town Meeting Member and in several school and parent leadership roles.",
-    "locationNote": "Lives in Winchester and said she had lived there for eight years as of February 2025.",
+    "background": "Economist with education at the London School of Economics and Northeastern University; worked in FinTech consulting for large financial institutions and later founded a Boston-based company. Mnayarji said she had lived in Winchester for eight years at the time of her 2025 profile.",
+    "summary": "Mnayarji ran for School Committee in 2025 emphasizing literacy reform, broader curriculum review, intentional technology use, and school culture. She described herself as bringing elementary-school representation and prior local involvement as a Town Meeting Member and parent leader. She won one of two School Committee seats in March 2025.",
+    "locationNote": "Lived in Winchester for eight years as of February 2025, according to her candidate profile.",
     "priorRecordStrength": "adjacent",
-    "priorRecordLabel": "Town Meeting and school parent leadership",
-    "priorRecordSummary": "Reported prior service as a Precinct 5 Town Meeting Member, co-chair of the Parents' Inter-School Council, TMMA Board member, Ambrose School Council member, and Ambrose PTO president. By May 2025, official town minutes list her as a School Committee member and Recording Secretary.",
+    "priorRecordLabel": "Town Meeting Member and parent/civic leadership",
+    "priorRecordSummary": "Mnayarji said she was elected as a Precinct 5 Town Meeting Member in 2024 and had served in roles including co-chair of the Parents' Inter-School Council, TMMA board, Ambrose School Council, and Ambrose PTO president. After the election, official town minutes list her as a School Committee member and Recording Secretary at a May 30, 2025 joint meeting.",
     "keyThemes": [
       "Literacy reform",
       "Curriculum review",
-      "Intentional technology and device policy",
-      "Fiscal responsibility with classroom protections",
-      "School culture and inclusive voice"
+      "Intentional technology policy",
+      "Classroom-focused budgeting",
+      "Collaborative decision-making"
     ],
     "stanceCards": [
       {
         "topicId": "literacy",
         "tone": "support",
-        "label": "Backs literacy reform",
-        "detail": "Identified literacy reform as a central reason for running and said curriculum updates should include classroom investment, coaching, professional development, and feedback loops."
+        "label": "Supports literacy reform",
+        "detail": "She identified literacy reform as a core reason for running and said curriculum updates should include classroom investments, coaching, professional development, and feedback loops."
       },
       {
         "topicId": "technology",
         "tone": "support",
-        "label": "Supports stricter device limits",
-        "detail": "Called for intentional use of technology, including review of personal device policies, and at the candidate forum said she supports a phone-free, more broadly device-free, school experience."
+        "label": "Backs stricter device limits",
+        "detail": "She called for intentional use of technology, review of personal device policies, and at the forum said she supported a phone-free, more broadly device-free, school experience."
       },
       {
         "topicId": "school-budget",
         "tone": "support",
         "label": "Protect classroom spending",
-        "detail": "Said budget management should prioritize classroom size, student-teacher ratios, direct student services, literacy and math curriculum, teacher support, and special education, while looking for administrative efficiencies and grants."
+        "detail": "She said budgets should prioritize classroom size, student-teacher ratios, direct student services, literacy and math curricula, teacher support, and special education."
       },
       {
         "topicId": "fiscal-governance",
         "tone": "support",
         "label": "Emphasizes transparent budgeting",
-        "detail": "Called for transparent, collaborative budget decision-making with town boards, teachers, parents, and community members."
+        "detail": "She said budget decisions should be transparent and collaborative, with town boards, teachers, parents, and community members engaged in discussion."
       },
       {
         "topicId": "mental-health",
         "tone": "support",
-        "label": "Links device limits to student well-being",
-        "detail": "At the forum, cited reports from phone-free districts of better focus and improved mental health."
+        "label": "Links device policy to student well-being",
+        "detail": "At the candidate forum, she said phone-free districts report better focus and improved mental health."
       }
     ],
     "evidence": [
       {
         "id": "e1",
         "kind": "statement",
-        "title": "Candidate profile: background and motivations",
-        "summary": "Mnayarji described her professional background, prior town and volunteer roles, and said she was running to address funding, curriculum, literacy reform, technology use, and school culture.",
+        "title": "Candidate profile outlines background and motivations",
+        "summary": "Mnayarji described her professional background, local civic roles, and campaign focus on funding, curriculum, literacy reform, technology policy, and school culture.",
         "topicIds": [
           "literacy",
           "technology",
@@ -1642,20 +1684,19 @@
       {
         "id": "e2",
         "kind": "statement",
-        "title": "Candidate profile: budget priorities",
-        "summary": "She said school budgeting should be fiscally responsible, data-driven, collaborative, and should protect classroom investments, special education, and literacy and math curricula while seeking grants and efficiencies.",
+        "title": "Candidate profile on budget priorities",
+        "summary": "She said budgets should use data-driven allocation, pursue grants and partnerships, and protect classroom investments while seeking administrative efficiencies over instructional cuts.",
         "topicIds": [
           "school-budget",
-          "fiscal-governance",
-          "literacy"
+          "fiscal-governance"
         ],
         "sourceId": "news-stefanie-mnayarji-profile-2025"
       },
       {
         "id": "e3",
         "kind": "forum",
-        "title": "Candidate forum: device-free schools position",
-        "summary": "At the League of Women Voters forum, Mnayarji said she supports a phone-free and more broadly device-free school experience and argued such policies can improve focus and mental health.",
+        "title": "Forum remarks on device-free schools",
+        "summary": "At the March 6 candidate forum, Mnayarji said she supported a phone-free, broader device-free school experience and argued such policies can improve focus and mental health.",
         "topicIds": [
           "technology",
           "mental-health"
@@ -1664,9 +1705,9 @@
       },
       {
         "id": "e4",
-        "kind": "vote",
-        "title": "2025 official election results",
-        "summary": "Official town results show Mnayarji received 1,964 votes in the School Committee race, the highest total in a two-seat contest.",
+        "kind": "context",
+        "title": "Official election results show School Committee win",
+        "summary": "Official town results list Mnayarji with 1,964 votes in the School Committee race, ahead of Christian Nixon and alongside Karen Maruyama Bolognese for the two seats.",
         "topicIds": [
           "fiscal-governance"
         ],
@@ -1675,22 +1716,22 @@
       {
         "id": "e5",
         "kind": "context",
-        "title": "Post-election committee service",
-        "summary": "Official May 30, 2025 minutes list Stefanie Mnayarji as a Winchester School Committee member and Recording Secretary.",
-        "topicIds": [
-          "fiscal-governance"
-        ],
-        "sourceId": "official-sott-minutes-2025-05-30"
-      },
-      {
-        "id": "e6",
-        "kind": "context",
         "title": "Election-night coverage confirms winners",
-        "summary": "Local election coverage reported that Mnayarji and Karen Maruyama Bolognese won the two School Committee seats, while incumbent Christian Nixon lost.",
+        "summary": "Local election coverage reported that Mnayarji and incumbent Karen Maruyama Bolognese won the two School Committee seats.",
         "topicIds": [
           "fiscal-governance"
         ],
         "sourceId": "news-election-night-2025"
+      },
+      {
+        "id": "e6",
+        "kind": "context",
+        "title": "Post-election official minutes list her on School Committee",
+        "summary": "May 30, 2025 town minutes list Stefanie Mnayarji as a School Committee member and Recording Secretary.",
+        "topicIds": [
+          "fiscal-governance"
+        ],
+        "sourceId": "official-sott-minutes-2025-05-30"
       }
     ]
   }

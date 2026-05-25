@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T14:32:51.588Z",
+  "generatedAt": "2026-05-25T14:02:25.353Z",
   "model": "gpt-5.4",
   "promptVersion": "candidate-sync-v1",
   "candidates": [
@@ -16,7 +16,7 @@
         "news-select-board-override-vote",
         "news-election-night-2026"
       ],
-      "fingerprint": "e17c009c01698080e48404a5ccd9051c360a799b5d2c84970218168fe9ed6a4b",
+      "fingerprint": "02b882fe515d7bca54d45beda44f93915bcb22cfc27a19584b4da52bffd2ca5c",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -31,7 +31,7 @@
         "news-town-meeting-school-budget-2025",
         "news-election-night-2025"
       ],
-      "fingerprint": "10fbaa206bd51b3fbfabea55f46485c16086e7b5ffa02010ca8faf2f8b6aed07",
+      "fingerprint": "9693463d1e32e14dd2cf18bd09f5e78e4c8af1fc547efe9823951325173b7d77",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -43,7 +43,7 @@
         "news-rick-welch-profile-2025",
         "official-election-results-2025"
       ],
-      "fingerprint": "66159f80981b1e0375b06fa4e35ca044d68baae0cc84d299239a75241180648c",
+      "fingerprint": "b1a50c3d798a105325c2b23da2303e8d1afe728c9820284be8d0fa020cba1811",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -59,7 +59,7 @@
         "news-election-night-2025",
         "news-select-board-override-vote"
       ],
-      "fingerprint": "4ec7320c945757dc3b4e98c5744e40e2fb035e6b5ee7a6a5dce5111aae4307aa",
+      "fingerprint": "cc8cba0ce56d598bd95472e330c7fd9e7e8b66557da1e7a5039c9b3fe29b4753",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -74,7 +74,7 @@
         "news-school-committee-forum-2025",
         "news-election-night-2025"
       ],
-      "fingerprint": "6692ee3d0aa4e0621c0b49bb1cf2030a4825bf241c781713bfae77fd9a97c6b4",
+      "fingerprint": "b1104fc6134b0c7fb9177574d2b8d25ceee332a78c98361e9c8fb7939c1374a1",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -87,7 +87,7 @@
         "official-election-results-2025",
         "news-election-night-2025"
       ],
-      "fingerprint": "1f2b37d96b64d58f3cde7891aa0f997207e5aa2893fb4d9482feddd39659cb79",
+      "fingerprint": "23cb6a6ea4177d8e6592f7b05789f971d3610d4779862f7958baf0dabeafa822",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -102,7 +102,7 @@
         "news-school-committee-forum-2025",
         "news-election-night-2025"
       ],
-      "fingerprint": "f00bdf0eef7bf8fedb93784f63717985778b6494bc02c07cce0b26d557168040",
+      "fingerprint": "73ca5cc17ed2bcf545763311119ba3237815c464f8bf9609ac7f832989eea1d7",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -115,7 +115,7 @@
         "official-election-results-2025",
         "news-election-night-2025"
       ],
-      "fingerprint": "5cf8dd1234022953cbafa935f070c9e4d011f655ded2d7d37b197a47b3f2f3c1",
+      "fingerprint": "325c67d37ae8285544f7a240604dc1444fb5c2e0a114984c8f4f4c41e860f801",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -128,7 +128,7 @@
         "official-election-results-2026",
         "news-school-committee-forum"
       ],
-      "fingerprint": "96f91b4a746b2009cc9934d50ad9a05a1fd15a4209230adabce3b0486bdc3055",
+      "fingerprint": "9e8c019dbae60b2ab646f33822dc3ec2bcd0783c29ae3069f38c4cf76e135349",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -144,7 +144,7 @@
         "news-election-night-2025",
         "news-election-night-2026"
       ],
-      "fingerprint": "b7ec4ff75be0dca3909be77e215c43ff40c588a5c544630ed2184af3a85ce8ff",
+      "fingerprint": "755801584e0738aa0a1686fceb190f59954801af1664ee227294f238c80baf8d",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -158,7 +158,7 @@
         "news-planning-board-forum-2026",
         "news-election-night-2026"
       ],
-      "fingerprint": "484ee80c609cddd6a860ac0b61bfb6972af89f06505c2c352bd75a5b8625498a",
+      "fingerprint": "3f288ee53df7a85bd3bb28bddd0ae319023e000861e046fab4e8a85b7f3b4891",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -171,7 +171,7 @@
         "official-election-results-2026",
         "news-planning-board-forum-2026"
       ],
-      "fingerprint": "9f920b50c60d5874658bb66972eb7a62b5f2aa70e5f5046f287568c6dc4482b7",
+      "fingerprint": "4a6031e5c2f919e02fcc62ee1da528230e78f00733ec243841f99f73f12a3a18",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -185,7 +185,7 @@
         "news-planning-board-forum-2026",
         "news-election-night-2026"
       ],
-      "fingerprint": "e26d672327af607e2d44f99a706932687c72e611f2945870497edf518c0f1b3f",
+      "fingerprint": "c0735dab8f656c2bbb1fd257e28cbe0387038fb8c72dec1483b3ef7c3670b1f1",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -200,7 +200,7 @@
         "news-school-literacy-motion-2024",
         "news-election-night-2026"
       ],
-      "fingerprint": "dd693649c695e488087d0a097be74b14450f3d1dc3cbbf03a89cf78e438b66b4",
+      "fingerprint": "3d8584657c96162e77c1ce98db4c52374a3151387a315e220f416639c2f1c10b",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
@@ -216,7 +216,7 @@
         "news-override-fallout",
         "news-election-night-2026"
       ],
-      "fingerprint": "d759db43c6ca12f21257ce5785627cbbe21f3b7d2f5455902a722629112f7b30",
+      "fingerprint": "f6d33c307e907c26a6716a2d1831e7b45e77cb00551a6798d606b0c883abb273",
       "model": "gpt-5.4",
       "promptVersion": "candidate-sync-v1",
       "reused": false
